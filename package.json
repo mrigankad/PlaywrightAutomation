@@ -39,7 +39,7 @@
     "PLUGINS.md"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c rollup.config.mjs",
     "build:clean": "rimraf dist && npm run build",
     "start": "ts-node src/cli.ts",
     "dev": "ts-node src/runner.ts",
@@ -131,6 +131,7 @@
     "rollup-plugin-dts": "^6.3.0",
     "ts-jest": "^29.4.6",
     "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
     "typescript": "^5.0.0"
   },
   "publishConfig": {

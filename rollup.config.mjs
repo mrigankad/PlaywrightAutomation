@@ -15,7 +15,7 @@ const config = [
     plugins: [
       nodeResolve(),
       typescript({
-        tsconfig: './tsconfig.json',
+        tsconfig: './tsconfig.build.json',
         declaration: false,
         outDir: 'dist',
         rootDir: 'src',
@@ -34,7 +34,7 @@ const config = [
     plugins: [
       nodeResolve(),
       typescript({
-        tsconfig: './tsconfig.json',
+        tsconfig: './tsconfig.build.json',
         declaration: false,
         outDir: 'dist',
         rootDir: 'src',
@@ -51,7 +51,7 @@ const config = [
     },
     plugins: [
       dts({
-        tsconfig: './tsconfig.json',
+        tsconfig: './tsconfig.build.json',
       }),
     ],
     external: ['playwright', 'dotenv', 'tesseract.js', 'uuid', 'fs', 'path'],
@@ -68,7 +68,7 @@ const config = [
     plugins: [
       nodeResolve(),
       typescript({
-        tsconfig: './tsconfig.json',
+        tsconfig: './tsconfig.build.json',
         declaration: false,
       }),
     ],
@@ -85,7 +85,7 @@ const config = [
     plugins: [
       nodeResolve(),
       typescript({
-        tsconfig: './tsconfig.json',
+        tsconfig: './tsconfig.build.json',
         declaration: false,
       }),
     ],
@@ -100,7 +100,7 @@ const config = [
     },
     plugins: [
       dts({
-        tsconfig: './tsconfig.json',
+        tsconfig: './tsconfig.build.json',
       }),
     ],
     external: ['playwright', 'dotenv', 'tesseract.js', 'uuid', 'fs', 'path'],

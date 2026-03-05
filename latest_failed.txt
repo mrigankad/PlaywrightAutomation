@@ -1,0 +1,36 @@
+Build Package	Build package	﻿2026-03-05T06:33:48.9217956Z ##[group]Run npm run build:clean
+Build Package	Build package	2026-03-05T06:33:48.9218279Z [36;1mnpm run build:clean[0m
+Build Package	Build package	2026-03-05T06:33:48.9267250Z shell: /usr/bin/bash -e {0}
+Build Package	Build package	2026-03-05T06:33:48.9267492Z env:
+Build Package	Build package	2026-03-05T06:33:48.9267735Z   NPM_CONFIG_USERCONFIG: /home/runner/work/_temp/.npmrc
+Build Package	Build package	2026-03-05T06:33:48.9268078Z   NODE_AUTH_TOKEN: XXXXX-XXXXX-XXXXX-XXXXX
+Build Package	Build package	2026-03-05T06:33:48.9268346Z ##[endgroup]
+Build Package	Build package	2026-03-05T06:33:49.0389956Z 
+Build Package	Build package	2026-03-05T06:33:49.0391013Z > @email-automation/core@1.0.0 build:clean
+Build Package	Build package	2026-03-05T06:33:49.0391556Z > rimraf dist && npm run build
+Build Package	Build package	2026-03-05T06:33:49.0391769Z 
+Build Package	Build package	2026-03-05T06:33:49.2130678Z 
+Build Package	Build package	2026-03-05T06:33:49.2131221Z > @email-automation/core@1.0.0 build
+Build Package	Build package	2026-03-05T06:33:49.2131801Z > rollup -c
+Build Package	Build package	2026-03-05T06:33:49.2132001Z 
+Build Package	Build package	2026-03-05T06:33:49.3716835Z (node:2416) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/runner/work/PlaywrightAutomation/PlaywrightAutomation/rollup.config.js is not specified and it doesn't parse as CommonJS.
+Build Package	Build package	2026-03-05T06:33:49.3718803Z Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+Build Package	Build package	2026-03-05T06:33:49.3719927Z To eliminate this warning, add "type": "module" to /home/runner/work/PlaywrightAutomation/PlaywrightAutomation/package.json.
+Build Package	Build package	2026-03-05T06:33:49.3721567Z (Use `node --trace-warnings ...` to show where the warning was created)
+Build Package	Build package	2026-03-05T06:33:49.9491977Z [36m
+Build Package	Build package	2026-03-05T06:33:49.9493324Z [1msrc/index.ts[22m → [1mdist/index.js[22m...[39m
+Build Package	Build package	2026-03-05T06:33:49.9528405Z [1m[33m(!) [plugin typescript] @rollup/plugin-typescript: Rollup requires that TypeScript produces ES Modules. Unfortunately your configuration specifies a "module" other than "esnext". Unless you know what you're doing, please change "module" to "esnext" in the target tsconfig.json file or plugin options.[39m[22m
+Build Package	Build package	2026-03-05T06:33:49.9625163Z [1m[31m[!] [1m(plugin typescript) RollupError: [plugin typescript] @rollup/plugin-typescript: Could not find module 'tslib', which is required by this plugin. Is it installed?[22m[1m[39m[22m
+Build Package	Build package	2026-03-05T06:33:49.9627839Z [2m    at getRollupError (/home/runner/work/PlaywrightAutomation/PlaywrightAutomation/node_modules/rollup/dist/shared/parseAst.js:287:41)
+Build Package	Build package	2026-03-05T06:33:49.9629521Z     at Object.error (/home/runner/work/PlaywrightAutomation/PlaywrightAutomation/node_modules/rollup/dist/shared/parseAst.js:283:42)
+Build Package	Build package	2026-03-05T06:33:49.9631342Z     at Object.error (/home/runner/work/PlaywrightAutomation/PlaywrightAutomation/node_modules/rollup/dist/shared/rollup.js:913:32)
+Build Package	Build package	2026-03-05T06:33:49.9633018Z     at preflight (file:///home/runner/work/PlaywrightAutomation/PlaywrightAutomation/node_modules/@rollup/plugin-typescript/dist/es/index.js:541:17)
+Build Package	Build package	2026-03-05T06:33:49.9634812Z     at Object.buildStart (file:///home/runner/work/PlaywrightAutomation/PlaywrightAutomation/node_modules/@rollup/plugin-typescript/dist/es/index.js:892:13)
+Build Package	Build package	2026-03-05T06:33:49.9635936Z     at /home/runner/work/PlaywrightAutomation/PlaywrightAutomation/node_modules/rollup/dist/shared/rollup.js:3392:40
+Build Package	Build package	2026-03-05T06:33:49.9636635Z     at async Promise.all (index 1)
+Build Package	Build package	2026-03-05T06:33:49.9637355Z     at PluginDriver.hookParallel (/home/runner/work/PlaywrightAutomation/PlaywrightAutomation/node_modules/rollup/dist/shared/rollup.js:3302:9)
+Build Package	Build package	2026-03-05T06:33:49.9638323Z     at /home/runner/work/PlaywrightAutomation/PlaywrightAutomation/node_modules/rollup/dist/shared/rollup.js:23790:13
+Build Package	Build package	2026-03-05T06:33:49.9639521Z     at catchUnfinishedHookActions (/home/runner/work/PlaywrightAutomation/PlaywrightAutomation/node_modules/rollup/dist/shared/rollup.js:23297:16)[22m
+Build Package	Build package	2026-03-05T06:33:49.9640323Z 
+Build Package	Build package	2026-03-05T06:33:49.9640336Z 
+Build Package	Build package	2026-03-05T06:33:49.9855536Z ##[error]Process completed with exit code 1.

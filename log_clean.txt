@@ -1,0 +1,179 @@
+Test & Lint	Set up job	﻿2026-03-05T05:43:11.7038924Z Current runner version: '2.331.0'
+Test & Lint	Set up job	2026-03-05T05:43:11.7066631Z ##[group]Runner Image Provisioner
+Test & Lint	Set up job	2026-03-05T05:43:11.7067569Z Hosted Compute Agent
+Test & Lint	Set up job	2026-03-05T05:43:11.7068091Z Version: 20260213.493
+Test & Lint	Set up job	2026-03-05T05:43:11.7068713Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Test & Lint	Set up job	2026-03-05T05:43:11.7069532Z Build Date: 2026-02-13T00:28:41Z
+Test & Lint	Set up job	2026-03-05T05:43:11.7070239Z Worker ID: {47590b87-3dcc-4ae3-b85d-f7d4ad0465df}
+Test & Lint	Set up job	2026-03-05T05:43:11.7070936Z Azure Region: eastus2
+Test & Lint	Set up job	2026-03-05T05:43:11.7071725Z ##[endgroup]
+Test & Lint	Set up job	2026-03-05T05:43:11.7073065Z ##[group]Operating System
+Test & Lint	Set up job	2026-03-05T05:43:11.7073650Z Ubuntu
+Test & Lint	Set up job	2026-03-05T05:43:11.7074284Z 24.04.3
+Test & Lint	Set up job	2026-03-05T05:43:11.7074728Z LTS
+Test & Lint	Set up job	2026-03-05T05:43:11.7075255Z ##[endgroup]
+Test & Lint	Set up job	2026-03-05T05:43:11.7075767Z ##[group]Runner Image
+Test & Lint	Set up job	2026-03-05T05:43:11.7076373Z Image: ubuntu-24.04
+Test & Lint	Set up job	2026-03-05T05:43:11.7076921Z Version: 20260302.42.1
+Test & Lint	Set up job	2026-03-05T05:43:11.7078107Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+Test & Lint	Set up job	2026-03-05T05:43:11.7079909Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+Test & Lint	Set up job	2026-03-05T05:43:11.7080982Z ##[endgroup]
+Test & Lint	Set up job	2026-03-05T05:43:11.7082494Z ##[group]GITHUB_TOKEN Permissions
+Test & Lint	Set up job	2026-03-05T05:43:11.7084818Z Contents: read
+Test & Lint	Set up job	2026-03-05T05:43:11.7085386Z Metadata: read
+Test & Lint	Set up job	2026-03-05T05:43:11.7085940Z Packages: read
+Test & Lint	Set up job	2026-03-05T05:43:11.7086402Z ##[endgroup]
+Test & Lint	Set up job	2026-03-05T05:43:11.7088963Z Secret source: Actions
+Test & Lint	Set up job	2026-03-05T05:43:11.7090419Z Prepare workflow directory
+Test & Lint	Set up job	2026-03-05T05:43:11.7411887Z Prepare all required actions
+Test & Lint	Set up job	2026-03-05T05:43:11.7450924Z Getting action download info
+Test & Lint	Set up job	2026-03-05T05:43:12.0594719Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Test & Lint	Set up job	2026-03-05T05:43:12.2063342Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Test & Lint	Set up job	2026-03-05T05:43:12.3029717Z Download action repository 'codecov/codecov-action@v3' (SHA:ab904c41d6ece82784817410c45d8b8c02684457)
+Test & Lint	Set up job	2026-03-05T05:43:12.6760257Z Complete job name: Test & Lint
+Test & Lint	Checkout code	﻿2026-03-05T05:43:12.7466051Z ##[group]Run actions/checkout@v4
+Test & Lint	Checkout code	2026-03-05T05:43:12.7467172Z with:
+Test & Lint	Checkout code	2026-03-05T05:43:12.7467727Z   repository: mrigankad/PlaywrightAutomation
+Test & Lint	Checkout code	2026-03-05T05:43:12.7468717Z   token: ***
+Test & Lint	Checkout code	2026-03-05T05:43:12.7469291Z   ssh-strict: true
+Test & Lint	Checkout code	2026-03-05T05:43:12.7469884Z   ssh-user: git
+Test & Lint	Checkout code	2026-03-05T05:43:12.7470445Z   persist-credentials: true
+Test & Lint	Checkout code	2026-03-05T05:43:12.7471033Z   clean: true
+Test & Lint	Checkout code	2026-03-05T05:43:12.7471942Z   sparse-checkout-cone-mode: true
+Test & Lint	Checkout code	2026-03-05T05:43:12.7472698Z   fetch-depth: 1
+Test & Lint	Checkout code	2026-03-05T05:43:12.7473272Z   fetch-tags: false
+Test & Lint	Checkout code	2026-03-05T05:43:12.7473797Z   show-progress: true
+Test & Lint	Checkout code	2026-03-05T05:43:12.7474374Z   lfs: false
+Test & Lint	Checkout code	2026-03-05T05:43:12.7474923Z   submodules: false
+Test & Lint	Checkout code	2026-03-05T05:43:12.7475473Z   set-safe-directory: true
+Test & Lint	Checkout code	2026-03-05T05:43:12.7476439Z ##[endgroup]
+Test & Lint	Checkout code	2026-03-05T05:43:12.8587165Z Syncing repository: mrigankad/PlaywrightAutomation
+Test & Lint	Checkout code	2026-03-05T05:43:12.8589128Z ##[group]Getting Git version info
+Test & Lint	Checkout code	2026-03-05T05:43:12.8589938Z Working directory is '/home/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Test & Lint	Checkout code	2026-03-05T05:43:12.8591101Z [command]/usr/bin/git version
+Test & Lint	Checkout code	2026-03-05T05:43:12.8654801Z git version 2.53.0
+Test & Lint	Checkout code	2026-03-05T05:43:12.8679545Z ##[endgroup]
+Test & Lint	Checkout code	2026-03-05T05:43:12.8694114Z Temporarily overriding HOME='/home/runner/work/_temp/23703e54-58ea-42b4-a328-3104b66330c1' before making global git config changes
+Test & Lint	Checkout code	2026-03-05T05:43:12.8696195Z Adding repository directory to the temporary git global config as a safe directory
+Test & Lint	Checkout code	2026-03-05T05:43:12.8707592Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Test & Lint	Checkout code	2026-03-05T05:43:12.8749716Z Deleting the contents of '/home/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Test & Lint	Checkout code	2026-03-05T05:43:12.8753683Z ##[group]Initializing the repository
+Test & Lint	Checkout code	2026-03-05T05:43:12.8757918Z [command]/usr/bin/git init /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Test & Lint	Checkout code	2026-03-05T05:43:12.8856323Z hint: Using 'master' as the name for the initial branch. This default branch name
+Test & Lint	Checkout code	2026-03-05T05:43:12.8858154Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Test & Lint	Checkout code	2026-03-05T05:43:12.8859527Z hint: to use in all of your new repositories, which will suppress this warning,
+Test & Lint	Checkout code	2026-03-05T05:43:12.8860604Z hint: call:
+Test & Lint	Checkout code	2026-03-05T05:43:12.8861178Z hint:
+Test & Lint	Checkout code	2026-03-05T05:43:12.8862233Z hint: 	git config --global init.defaultBranch <name>
+Test & Lint	Checkout code	2026-03-05T05:43:12.8863094Z hint:
+Test & Lint	Checkout code	2026-03-05T05:43:12.8864019Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Test & Lint	Checkout code	2026-03-05T05:43:12.8865202Z hint: 'development'. The just-created branch can be renamed via this command:
+Test & Lint	Checkout code	2026-03-05T05:43:12.8865986Z hint:
+Test & Lint	Checkout code	2026-03-05T05:43:12.8866536Z hint: 	git branch -m <name>
+Test & Lint	Checkout code	2026-03-05T05:43:12.8867181Z hint:
+Test & Lint	Checkout code	2026-03-05T05:43:12.8868178Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Test & Lint	Checkout code	2026-03-05T05:43:12.8869912Z Initialized empty Git repository in /home/runner/work/PlaywrightAutomation/PlaywrightAutomation/.git/
+Test & Lint	Checkout code	2026-03-05T05:43:12.8872654Z [command]/usr/bin/git remote add origin https://github.com/mrigankad/PlaywrightAutomation
+Test & Lint	Checkout code	2026-03-05T05:43:12.8908475Z ##[endgroup]
+Test & Lint	Checkout code	2026-03-05T05:43:12.8909504Z ##[group]Disabling automatic garbage collection
+Test & Lint	Checkout code	2026-03-05T05:43:12.8912723Z [command]/usr/bin/git config --local gc.auto 0
+Test & Lint	Checkout code	2026-03-05T05:43:12.8943668Z ##[endgroup]
+Test & Lint	Checkout code	2026-03-05T05:43:12.8944631Z ##[group]Setting up auth
+Test & Lint	Checkout code	2026-03-05T05:43:12.8950301Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test & Lint	Checkout code	2026-03-05T05:43:12.8983912Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test & Lint	Checkout code	2026-03-05T05:43:12.9339859Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test & Lint	Checkout code	2026-03-05T05:43:12.9373005Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test & Lint	Checkout code	2026-03-05T05:43:12.9623741Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test & Lint	Checkout code	2026-03-05T05:43:12.9667401Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test & Lint	Checkout code	2026-03-05T05:43:12.9924207Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Test & Lint	Checkout code	2026-03-05T05:43:12.9960884Z ##[endgroup]
+Test & Lint	Checkout code	2026-03-05T05:43:12.9962122Z ##[group]Fetching the repository
+Test & Lint	Checkout code	2026-03-05T05:43:12.9969835Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +1a83d4763353393c73b513d868aefe1128c1113d:refs/remotes/origin/main
+Test & Lint	Checkout code	2026-03-05T05:43:13.1913764Z From https://github.com/mrigankad/PlaywrightAutomation
+Test & Lint	Checkout code	2026-03-05T05:43:13.1915304Z  * [new ref]         1a83d4763353393c73b513d868aefe1128c1113d -> origin/main
+Test & Lint	Checkout code	2026-03-05T05:43:13.1952147Z ##[endgroup]
+Test & Lint	Checkout code	2026-03-05T05:43:13.1953314Z ##[group]Determining the checkout info
+Test & Lint	Checkout code	2026-03-05T05:43:13.1956504Z ##[endgroup]
+Test & Lint	Checkout code	2026-03-05T05:43:13.1960815Z [command]/usr/bin/git sparse-checkout disable
+Test & Lint	Checkout code	2026-03-05T05:43:13.2008533Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Test & Lint	Checkout code	2026-03-05T05:43:13.2042472Z ##[group]Checking out the ref
+Test & Lint	Checkout code	2026-03-05T05:43:13.2046034Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Test & Lint	Checkout code	2026-03-05T05:43:13.2156769Z Switched to a new branch 'main'
+Test & Lint	Checkout code	2026-03-05T05:43:13.2158513Z branch 'main' set up to track 'origin/main'.
+Test & Lint	Checkout code	2026-03-05T05:43:13.2165901Z ##[endgroup]
+Test & Lint	Checkout code	2026-03-05T05:43:13.2204518Z [command]/usr/bin/git log -1 --format=%H
+Test & Lint	Checkout code	2026-03-05T05:43:13.2229789Z 1a83d4763353393c73b513d868aefe1128c1113d
+Test & Lint	Setup Node.js	﻿2026-03-05T05:43:13.2547049Z ##[group]Run actions/setup-node@v4
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.2548076Z with:
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.2548716Z   node-version: 20
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.2549446Z   cache: npm
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.2550122Z   always-auth: false
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.2551105Z   check-latest: false
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.2552428Z   token: ***
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.2553101Z ##[endgroup]
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.4353613Z Found in cache @ /opt/hostedtoolcache/node/20.20.0/x64
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.4359176Z ##[group]Environment details
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.7688328Z node: v20.20.0
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.7689357Z npm: 10.8.2
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.7690127Z yarn: 1.22.22
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.7692809Z ##[endgroup]
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.7715321Z [command]/opt/hostedtoolcache/node/20.20.0/x64/bin/npm config get cache
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.8876016Z /home/runner/.npm
+Test & Lint	Setup Node.js	2026-03-05T05:43:13.9926460Z npm cache is not found
+Test & Lint	Install dependencies	﻿2026-03-05T05:43:14.0066322Z ##[group]Run npm ci
+Test & Lint	Install dependencies	2026-03-05T05:43:14.0067117Z [36;1mnpm ci[0m
+Test & Lint	Install dependencies	2026-03-05T05:43:14.0132867Z shell: /usr/bin/bash -e {0}
+Test & Lint	Install dependencies	2026-03-05T05:43:14.0133670Z ##[endgroup]
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0957535Z npm error code ERESOLVE
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0958212Z npm error ERESOLVE could not resolve
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0958658Z npm error
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0959405Z npm error While resolving: eslint-plugin-import@2.32.0
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0960047Z npm error Found: eslint@10.0.2
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0960515Z npm error node_modules/eslint
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0961150Z npm error   dev eslint@"^10.0.2" from the root project
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0962349Z npm error   peer eslint@"^6.0.0 || ^7.0.0 || >=8.0.0" from @eslint-community/eslint-utils@4.9.1
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0963283Z npm error   node_modules/@eslint-community/eslint-utils
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0964227Z npm error     @eslint-community/eslint-utils@"^4.9.1" from @typescript-eslint/utils@8.56.1
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0965110Z npm error     node_modules/@typescript-eslint/utils
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0966156Z npm error       @typescript-eslint/utils@"8.56.1" from @typescript-eslint/eslint-plugin@8.56.1
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0967116Z npm error       node_modules/@typescript-eslint/eslint-plugin
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0968053Z npm error         dev @typescript-eslint/eslint-plugin@"^8.56.1" from the root project
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0968952Z npm error       1 more (@typescript-eslint/type-utils)
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0969822Z npm error     @eslint-community/eslint-utils@"^4.8.0" from eslint@10.0.2
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0970694Z npm error   6 more (@eslint/js, @typescript-eslint/eslint-plugin, ...)
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0971470Z npm error
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0971879Z npm error Could not resolve dependency:
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0973063Z npm error peer eslint@"^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8 || ^9" from eslint-plugin-import@2.32.0
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0973949Z npm error node_modules/eslint-plugin-import
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0974766Z npm error   dev eslint-plugin-import@"^2.32.0" from the root project
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0975263Z npm error
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0975682Z npm error Conflicting peer dependency: eslint@9.39.3
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0976132Z npm error node_modules/eslint
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0976879Z npm error   peer eslint@"^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8 || ^9" from eslint-plugin-import@2.32.0
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0977658Z npm error   node_modules/eslint-plugin-import
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0978340Z npm error     dev eslint-plugin-import@"^2.32.0" from the root project
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0978874Z npm error
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0979379Z npm error Fix the upstream dependency conflict, or retry
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0980136Z npm error this command with --force or --legacy-peer-deps
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0980930Z npm error to accept an incorrect (and potentially broken) dependency resolution.
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0981643Z npm error
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0981894Z npm error
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0982229Z npm error For a full report see:
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0982898Z npm error /home/runner/.npm/_logs/2026-03-05T05_43_14_081Z-eresolve-report.txt
+Test & Lint	Install dependencies	2026-03-05T05:43:15.0983670Z npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-03-05T05_43_14_081Z-debug-0.log
+Test & Lint	Install dependencies	2026-03-05T05:43:15.1071660Z ##[error]Process completed with exit code 1.
+Test & Lint	Post Checkout code	﻿2026-03-05T05:43:15.1197549Z Post job cleanup.
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2171193Z [command]/usr/bin/git version
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2209906Z git version 2.53.0
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2254573Z Temporarily overriding HOME='/home/runner/work/_temp/3c47cad0-a3bb-44a8-83e4-3b4b89ad88c8' before making global git config changes
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2256060Z Adding repository directory to the temporary git global config as a safe directory
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2261801Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2303972Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2341188Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2612031Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2637963Z http.https://github.com/.extraheader
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2650672Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2685965Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2953541Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test & Lint	Post Checkout code	2026-03-05T05:43:15.2993644Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test & Lint	Complete job	﻿2026-03-05T05:43:15.3369565Z Cleaning up orphan processes

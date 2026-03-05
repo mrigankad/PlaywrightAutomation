@@ -1,0 +1,1377 @@
+Lint & Format Check	Set up job	﻿2026-03-05T06:07:07.8149084Z Current runner version: '2.331.0'
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8176250Z ##[group]Runner Image Provisioner
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8177185Z Hosted Compute Agent
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8177761Z Version: 20260213.493
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8178452Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8179188Z Build Date: 2026-02-13T00:28:41Z
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8179817Z Worker ID: {43185083-ea3f-4478-96d1-24f30c8b4cb8}
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8180610Z Azure Region: eastus2
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8181169Z ##[endgroup]
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8182879Z ##[group]Operating System
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8183594Z Ubuntu
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8184044Z 24.04.3
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8184544Z LTS
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8185009Z ##[endgroup]
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8185564Z ##[group]Runner Image
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8186105Z Image: ubuntu-24.04
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8186666Z Version: 20260302.42.1
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8187862Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8189619Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8190500Z ##[endgroup]
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8191629Z ##[group]GITHUB_TOKEN Permissions
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8193714Z Contents: read
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8194318Z Metadata: read
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8194850Z Packages: read
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8195377Z ##[endgroup]
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8197623Z Secret source: Actions
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8198825Z Prepare workflow directory
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8517410Z Prepare all required actions
+Lint & Format Check	Set up job	2026-03-05T06:07:07.8554972Z Getting action download info
+Lint & Format Check	Set up job	2026-03-05T06:07:08.1225590Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Lint & Format Check	Set up job	2026-03-05T06:07:08.2774636Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Lint & Format Check	Set up job	2026-03-05T06:07:08.5073598Z Complete job name: Lint & Format Check
+Lint & Format Check	Checkout code	﻿2026-03-05T06:07:08.5784574Z ##[group]Run actions/checkout@v4
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5785438Z with:
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5785893Z   repository: mrigankad/PlaywrightAutomation
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5786585Z   token: ***
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5786966Z   ssh-strict: true
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5787583Z   ssh-user: git
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5787984Z   persist-credentials: true
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5788420Z   clean: true
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5788831Z   sparse-checkout-cone-mode: true
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5789302Z   fetch-depth: 1
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5789688Z   fetch-tags: false
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5790085Z   show-progress: true
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5790487Z   lfs: false
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5790853Z   submodules: false
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5791248Z   set-safe-directory: true
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.5791939Z ##[endgroup]
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.6864928Z Syncing repository: mrigankad/PlaywrightAutomation
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.6866713Z ##[group]Getting Git version info
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.6867764Z Working directory is '/home/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.6868936Z [command]/usr/bin/git version
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.6958507Z git version 2.53.0
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.6985306Z ##[endgroup]
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7009351Z Temporarily overriding HOME='/home/runner/work/_temp/848cbf11-4726-4328-a231-d4c2bf4d1988' before making global git config changes
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7010738Z Adding repository directory to the temporary git global config as a safe directory
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7015096Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7056887Z Deleting the contents of '/home/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7060182Z ##[group]Initializing the repository
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7064810Z [command]/usr/bin/git init /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7171600Z hint: Using 'master' as the name for the initial branch. This default branch name
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7172577Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7174492Z hint: to use in all of your new repositories, which will suppress this warning,
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7175719Z hint: call:
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7176293Z hint:
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7177433Z hint: 	git config --global init.defaultBranch <name>
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7178384Z hint:
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7178985Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7179861Z hint: 'development'. The just-created branch can be renamed via this command:
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7180547Z hint:
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7180921Z hint: 	git branch -m <name>
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7181355Z hint:
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7181926Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7183677Z Initialized empty Git repository in /home/runner/work/PlaywrightAutomation/PlaywrightAutomation/.git/
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7188446Z [command]/usr/bin/git remote add origin https://github.com/mrigankad/PlaywrightAutomation
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7221153Z ##[endgroup]
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7221887Z ##[group]Disabling automatic garbage collection
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7225104Z [command]/usr/bin/git config --local gc.auto 0
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7253434Z ##[endgroup]
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7254123Z ##[group]Setting up auth
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7260118Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7290280Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7637360Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7667350Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7923455Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.7956491Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.8210329Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.8249329Z ##[endgroup]
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.8250571Z ##[group]Fetching the repository
+Lint & Format Check	Checkout code	2026-03-05T06:07:08.8259379Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a7ad6c32079d8bcf5b5723a80902806753391bc6:refs/remotes/origin/main
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0071859Z From https://github.com/mrigankad/PlaywrightAutomation
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0072982Z  * [new ref]         a7ad6c32079d8bcf5b5723a80902806753391bc6 -> origin/main
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0104510Z ##[endgroup]
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0105648Z ##[group]Determining the checkout info
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0107444Z ##[endgroup]
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0113137Z [command]/usr/bin/git sparse-checkout disable
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0155743Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0182862Z ##[group]Checking out the ref
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0187621Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0293693Z Switched to a new branch 'main'
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0296664Z branch 'main' set up to track 'origin/main'.
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0303472Z ##[endgroup]
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0340461Z [command]/usr/bin/git log -1 --format=%H
+Lint & Format Check	Checkout code	2026-03-05T06:07:09.0363312Z a7ad6c32079d8bcf5b5723a80902806753391bc6
+Lint & Format Check	Setup Node.js	﻿2026-03-05T06:07:09.0610107Z ##[group]Run actions/setup-node@v4
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:09.0610663Z with:
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:09.0611016Z   node-version: 20
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:09.0611401Z   cache: npm
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:09.0611773Z   always-auth: false
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:09.0612166Z   check-latest: false
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:09.0612703Z   token: ***
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:09.0613049Z ##[endgroup]
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:09.2444017Z Found in cache @ /opt/hostedtoolcache/node/20.20.0/x64
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:09.2451328Z ##[group]Environment details
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:11.3725857Z node: v20.20.0
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:11.3726544Z npm: 10.8.2
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:11.3726903Z yarn: 1.22.22
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:11.3728241Z ##[endgroup]
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:11.3751579Z [command]/opt/hostedtoolcache/node/20.20.0/x64/bin/npm config get cache
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:11.6630976Z /home/runner/.npm
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:11.7716795Z Cache hit for: node-cache-Linux-x64-npm-199db431ba4ea8894e631b2a797ce31123f166bd0b7fe4694b6b40a14248b80e
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:12.1391280Z Received 42618709 of 42618709 (100.0%), 128.6 MBs/sec
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:12.1392526Z Cache Size: ~41 MB (42618709 B)
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:12.1420116Z [command]/usr/bin/tar -xf /home/runner/work/_temp/6b0cfd05-9f3f-4fa0-930d-91682bd91902/cache.tzst -P -C /home/runner/work/PlaywrightAutomation/PlaywrightAutomation --use-compress-program unzstd
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:12.2857329Z Cache restored successfully
+Lint & Format Check	Setup Node.js	2026-03-05T06:07:12.2976478Z Cache restored from key: node-cache-Linux-x64-npm-199db431ba4ea8894e631b2a797ce31123f166bd0b7fe4694b6b40a14248b80e
+Lint & Format Check	Install dependencies	﻿2026-03-05T06:07:12.3141898Z ##[group]Run npm ci
+Lint & Format Check	Install dependencies	2026-03-05T06:07:12.3142229Z [36;1mnpm ci[0m
+Lint & Format Check	Install dependencies	2026-03-05T06:07:12.3203752Z shell: /usr/bin/bash -e {0}
+Lint & Format Check	Install dependencies	2026-03-05T06:07:12.3204029Z ##[endgroup]
+Lint & Format Check	Install dependencies	2026-03-05T06:07:15.6479881Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Lint & Format Check	Install dependencies	2026-03-05T06:07:15.8590482Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Lint & Format Check	Install dependencies	2026-03-05T06:07:16.3174393Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.3799398Z 
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.3800239Z > @email-automation/core@1.0.0 prepare
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.3800834Z > husky
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.3801033Z 
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.4389697Z 
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.4391014Z added 613 packages, and audited 614 packages in 5s
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.4391977Z 
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.4399179Z 180 packages are looking for funding
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.4399894Z   run `npm fund` for details
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.4404862Z 
+Lint & Format Check	Install dependencies	2026-03-05T06:07:17.4406111Z found 0 vulnerabilities
+Lint & Format Check	Run ESLint	﻿2026-03-05T06:07:17.4784052Z ##[group]Run npm run lint:check
+Lint & Format Check	Run ESLint	2026-03-05T06:07:17.4784418Z [36;1mnpm run lint:check[0m
+Lint & Format Check	Run ESLint	2026-03-05T06:07:17.4835516Z shell: /usr/bin/bash -e {0}
+Lint & Format Check	Run ESLint	2026-03-05T06:07:17.4835793Z ##[endgroup]
+Lint & Format Check	Run ESLint	2026-03-05T06:07:17.5961966Z 
+Lint & Format Check	Run ESLint	2026-03-05T06:07:17.5962802Z > @email-automation/core@1.0.0 lint:check
+Lint & Format Check	Run ESLint	2026-03-05T06:07:17.5963706Z > eslint src tests --ext .ts
+Lint & Format Check	Run ESLint	2026-03-05T06:07:17.5964060Z 
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0572510Z 
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0573586Z /home/runner/work/PlaywrightAutomation/PlaywrightAutomation/src/logger.ts
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0602430Z ##[warning]  44:5  warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0610519Z ##[warning]  46:7  warning  Unexpected console statement. Only these console methods are allowed: warn, error  no-console
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0611570Z 
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0612038Z /home/runner/work/PlaywrightAutomation/PlaywrightAutomation/tests/unit/logger.test.ts
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0613421Z ##[warning]   70:13  warning  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0615154Z ##[warning]   72:25  warning  Unsafe member access .level on an `any` value      @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0616800Z ##[warning]   73:25  warning  Unsafe member access .message on an `any` value    @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0619190Z ##[warning]   74:25  warning  Unsafe member access .key on an `any` value        @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0620778Z ##[warning]   86:13  warning  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0622338Z ##[warning]   88:25  warning  Unsafe member access .level on an `any` value      @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0623946Z ##[warning]   89:25  warning  Unsafe member access .message on an `any` value    @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0625622Z ##[warning]   90:25  warning  Unsafe member access .timestamp on an `any` value  @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0627523Z ##[warning]   99:13  warning  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0629272Z ##[warning]  101:25  warning  Unsafe member access .userId on an `any` value     @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0630855Z ##[warning]  102:25  warning  Unsafe member access .action on an `any` value     @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0632439Z ##[warning]  111:13  warning  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0634016Z ##[warning]  113:25  warning  Unsafe member access .level on an `any` value      @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0635490Z ##[warning]  114:25  warning  Unsafe member access .message on an `any` value    @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0637272Z ##[warning]  125:13  warning  Unsafe assignment of an `any` value                @typescript-eslint/no-unsafe-assignment
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0639003Z ##[warning]  127:25  warning  Unsafe member access .level on an `any` value      @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0640621Z ##[warning]  128:25  warning  Unsafe member access .message on an `any` value    @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0642227Z ##[warning]  129:25  warning  Unsafe member access .error on an `any` value      @typescript-eslint/no-unsafe-member-access
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0643176Z 
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0643622Z ✖ 20 problems (0 errors, 20 warnings)
+Lint & Format Check	Run ESLint	2026-03-05T06:07:22.0643821Z 
+Lint & Format Check	Check Prettier formatting	﻿2026-03-05T06:07:22.1117242Z ##[group]Run npm run format:check
+Lint & Format Check	Check Prettier formatting	2026-03-05T06:07:22.1117576Z [36;1mnpm run format:check[0m
+Lint & Format Check	Check Prettier formatting	2026-03-05T06:07:22.1166566Z shell: /usr/bin/bash -e {0}
+Lint & Format Check	Check Prettier formatting	2026-03-05T06:07:22.1166816Z ##[endgroup]
+Lint & Format Check	Check Prettier formatting	2026-03-05T06:07:22.2266428Z 
+Lint & Format Check	Check Prettier formatting	2026-03-05T06:07:22.2267400Z > @email-automation/core@1.0.0 format:check
+Lint & Format Check	Check Prettier formatting	2026-03-05T06:07:22.2268315Z > prettier --check "src/**/*.ts" "tests/**/*.ts" "*.{json,md,yml,yaml}"
+Lint & Format Check	Check Prettier formatting	2026-03-05T06:07:22.2268716Z 
+Lint & Format Check	Check Prettier formatting	2026-03-05T06:07:22.3159439Z Checking formatting...
+Lint & Format Check	Check Prettier formatting	2026-03-05T06:07:23.5672143Z All matched files use Prettier code style!
+Lint & Format Check	Post Setup Node.js	﻿2026-03-05T06:07:23.5936610Z Post job cleanup.
+Lint & Format Check	Post Setup Node.js	2026-03-05T06:07:23.7491159Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-199db431ba4ea8894e631b2a797ce31123f166bd0b7fe4694b6b40a14248b80e, not saving cache.
+Lint & Format Check	Post Checkout code	﻿2026-03-05T06:07:23.7615077Z Post job cleanup.
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.8566859Z [command]/usr/bin/git version
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.8604544Z git version 2.53.0
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.8648095Z Temporarily overriding HOME='/home/runner/work/_temp/01577f21-0e39-4461-982a-b40ca9ff3e9f' before making global git config changes
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.8649137Z Adding repository directory to the temporary git global config as a safe directory
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.8660796Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.8695058Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.8728399Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.8980925Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.9005094Z http.https://github.com/.extraheader
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.9023634Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.9061433Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.9305359Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint & Format Check	Post Checkout code	2026-03-05T06:07:23.9336817Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint & Format Check	Complete job	﻿2026-03-05T06:07:23.9671797Z Cleaning up orphan processes
+TypeScript Type Check	Set up job	﻿2026-03-05T06:07:07.8838024Z Current runner version: '2.331.0'
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8865171Z ##[group]Runner Image Provisioner
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8866042Z Hosted Compute Agent
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8866696Z Version: 20260213.493
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8867272Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8867966Z Build Date: 2026-02-13T00:28:41Z
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8868740Z Worker ID: {4479e4d0-3408-42e3-97eb-7119ca232e0a}
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8869402Z Azure Region: westus
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8869991Z ##[endgroup]
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8871433Z ##[group]Operating System
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8872250Z Ubuntu
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8872696Z 24.04.3
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8873241Z LTS
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8873686Z ##[endgroup]
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8874189Z ##[group]Runner Image
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8874775Z Image: ubuntu-24.04
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8875274Z Version: 20260302.42.1
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8876285Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8877995Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8878996Z ##[endgroup]
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8880137Z ##[group]GITHUB_TOKEN Permissions
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8882183Z Contents: read
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8882792Z Metadata: read
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8883376Z Packages: read
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8883880Z ##[endgroup]
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8886055Z Secret source: Actions
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.8886895Z Prepare workflow directory
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.9246760Z Prepare all required actions
+TypeScript Type Check	Set up job	2026-03-05T06:07:07.9286932Z Getting action download info
+TypeScript Type Check	Set up job	2026-03-05T06:07:08.3802791Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+TypeScript Type Check	Set up job	2026-03-05T06:07:08.5655828Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+TypeScript Type Check	Set up job	2026-03-05T06:07:08.8266792Z Complete job name: TypeScript Type Check
+TypeScript Type Check	Checkout code	﻿2026-03-05T06:07:08.8983358Z ##[group]Run actions/checkout@v4
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8984236Z with:
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8984692Z   repository: mrigankad/PlaywrightAutomation
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8985447Z   token: ***
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8985891Z   ssh-strict: true
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8986278Z   ssh-user: git
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8986678Z   persist-credentials: true
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8987109Z   clean: true
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8987505Z   sparse-checkout-cone-mode: true
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8987971Z   fetch-depth: 1
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8988355Z   fetch-tags: false
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8988737Z   show-progress: true
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8989128Z   lfs: false
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8989488Z   submodules: false
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8989875Z   set-safe-directory: true
+TypeScript Type Check	Checkout code	2026-03-05T06:07:08.8990520Z ##[endgroup]
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0113640Z Syncing repository: mrigankad/PlaywrightAutomation
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0115605Z ##[group]Getting Git version info
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0116474Z Working directory is '/home/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0117664Z [command]/usr/bin/git version
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0332762Z git version 2.53.0
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0361935Z ##[endgroup]
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0387753Z Temporarily overriding HOME='/home/runner/work/_temp/472fcadd-e364-4a8c-b3b4-95c18048e079' before making global git config changes
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0390106Z Adding repository directory to the temporary git global config as a safe directory
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0395121Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0455863Z Deleting the contents of '/home/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0460315Z ##[group]Initializing the repository
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0465938Z [command]/usr/bin/git init /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0586602Z hint: Using 'master' as the name for the initial branch. This default branch name
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0588181Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0590233Z hint: to use in all of your new repositories, which will suppress this warning,
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0591055Z hint: call:
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0591605Z hint:
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0592711Z hint: 	git config --global init.defaultBranch <name>
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0593789Z hint:
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0594894Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0596645Z hint: 'development'. The just-created branch can be renamed via this command:
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0597924Z hint:
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0598614Z hint: 	git branch -m <name>
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0599380Z hint:
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0600370Z hint: Disable this message with "git config set advice.defaultBranchName false"
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0602520Z Initialized empty Git repository in /home/runner/work/PlaywrightAutomation/PlaywrightAutomation/.git/
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0607267Z [command]/usr/bin/git remote add origin https://github.com/mrigankad/PlaywrightAutomation
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0647923Z ##[endgroup]
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0649121Z ##[group]Disabling automatic garbage collection
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0653597Z [command]/usr/bin/git config --local gc.auto 0
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0686753Z ##[endgroup]
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0687968Z ##[group]Setting up auth
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0695264Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.0729980Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.1081495Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.1118551Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.1362393Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.1407176Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.1654459Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.1693669Z ##[endgroup]
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.1695000Z ##[group]Fetching the repository
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.1704479Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a7ad6c32079d8bcf5b5723a80902806753391bc6:refs/remotes/origin/main
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6188004Z From https://github.com/mrigankad/PlaywrightAutomation
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6190327Z  * [new ref]         a7ad6c32079d8bcf5b5723a80902806753391bc6 -> origin/main
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6228138Z ##[endgroup]
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6229496Z ##[group]Determining the checkout info
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6231460Z ##[endgroup]
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6234914Z [command]/usr/bin/git sparse-checkout disable
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6284807Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6317849Z ##[group]Checking out the ref
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6323246Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6439226Z Switched to a new branch 'main'
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6443003Z branch 'main' set up to track 'origin/main'.
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6450305Z ##[endgroup]
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6492048Z [command]/usr/bin/git log -1 --format=%H
+TypeScript Type Check	Checkout code	2026-03-05T06:07:09.6519170Z a7ad6c32079d8bcf5b5723a80902806753391bc6
+TypeScript Type Check	Setup Node.js	﻿2026-03-05T06:07:09.6844253Z ##[group]Run actions/setup-node@v4
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:09.6845344Z with:
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:09.6846022Z   node-version: 20
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:09.6846772Z   cache: npm
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:09.6847490Z   always-auth: false
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:09.6848277Z   check-latest: false
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:09.6849384Z   token: ***
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:09.6850077Z ##[endgroup]
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:09.9302053Z Found in cache @ /opt/hostedtoolcache/node/20.20.0/x64
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:09.9308907Z ##[group]Environment details
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:13.1463456Z node: v20.20.0
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:13.1465658Z npm: 10.8.2
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:13.1466529Z yarn: 1.22.22
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:13.1468361Z ##[endgroup]
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:13.1492745Z [command]/opt/hostedtoolcache/node/20.20.0/x64/bin/npm config get cache
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:13.4803942Z /home/runner/.npm
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:13.8016152Z Cache hit for: node-cache-Linux-x64-npm-199db431ba4ea8894e631b2a797ce31123f166bd0b7fe4694b6b40a14248b80e
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:15.1035447Z Received 4194304 of 42618709 (9.8%), 4.0 MBs/sec
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:15.4508028Z Received 42618709 of 42618709 (100.0%), 30.2 MBs/sec
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:15.4508852Z Cache Size: ~41 MB (42618709 B)
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:15.4633457Z [command]/usr/bin/tar -xf /home/runner/work/_temp/ae48e860-be61-4696-b20f-3d00a9c8bf0c/cache.tzst -P -C /home/runner/work/PlaywrightAutomation/PlaywrightAutomation --use-compress-program unzstd
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:15.6285280Z Cache restored successfully
+TypeScript Type Check	Setup Node.js	2026-03-05T06:07:15.6374703Z Cache restored from key: node-cache-Linux-x64-npm-199db431ba4ea8894e631b2a797ce31123f166bd0b7fe4694b6b40a14248b80e
+TypeScript Type Check	Install dependencies	﻿2026-03-05T06:07:15.6538793Z ##[group]Run npm ci
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:15.6539127Z [36;1mnpm ci[0m
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:15.6603394Z shell: /usr/bin/bash -e {0}
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:15.6603694Z ##[endgroup]
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:19.6278845Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:19.8464191Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:20.3633650Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5090746Z 
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5091598Z > @email-automation/core@1.0.0 prepare
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5092616Z > husky
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5092827Z 
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5674760Z 
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5675748Z added 613 packages, and audited 614 packages in 6s
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5676269Z 
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5676569Z 180 packages are looking for funding
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5677118Z   run `npm fund` for details
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5688450Z 
+TypeScript Type Check	Install dependencies	2026-03-05T06:07:21.5688793Z found 0 vulnerabilities
+TypeScript Type Check	Run TypeScript compiler	﻿2026-03-05T06:07:21.6015964Z ##[group]Run npm run type-check
+TypeScript Type Check	Run TypeScript compiler	2026-03-05T06:07:21.6016299Z [36;1mnpm run type-check[0m
+TypeScript Type Check	Run TypeScript compiler	2026-03-05T06:07:21.6067627Z shell: /usr/bin/bash -e {0}
+TypeScript Type Check	Run TypeScript compiler	2026-03-05T06:07:21.6067895Z ##[endgroup]
+TypeScript Type Check	Run TypeScript compiler	2026-03-05T06:07:21.7219736Z 
+TypeScript Type Check	Run TypeScript compiler	2026-03-05T06:07:21.7220626Z > @email-automation/core@1.0.0 type-check
+TypeScript Type Check	Run TypeScript compiler	2026-03-05T06:07:21.7221311Z > tsc --noEmit
+TypeScript Type Check	Run TypeScript compiler	2026-03-05T06:07:21.7221509Z 
+TypeScript Type Check	Post Setup Node.js	﻿2026-03-05T06:07:24.0191021Z Post job cleanup.
+TypeScript Type Check	Post Setup Node.js	2026-03-05T06:07:24.1757860Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-199db431ba4ea8894e631b2a797ce31123f166bd0b7fe4694b6b40a14248b80e, not saving cache.
+TypeScript Type Check	Post Checkout code	﻿2026-03-05T06:07:24.1887233Z Post job cleanup.
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.2859236Z [command]/usr/bin/git version
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.2897165Z git version 2.53.0
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.2940958Z Temporarily overriding HOME='/home/runner/work/_temp/4ee621bc-36a4-4c78-bb29-0908c95b817b' before making global git config changes
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.2942416Z Adding repository directory to the temporary git global config as a safe directory
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.2946787Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.2985225Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.3019203Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.3266852Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.3290107Z http.https://github.com/.extraheader
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.3303074Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.3335585Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.3578951Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+TypeScript Type Check	Post Checkout code	2026-03-05T06:07:24.3613229Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+TypeScript Type Check	Complete job	﻿2026-03-05T06:07:24.3963428Z Cleaning up orphan processes
+Run Tests (ubuntu-latest, 20)	Set up job	﻿2026-03-05T06:07:01.5267011Z Current runner version: '2.331.0'
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5293566Z ##[group]Runner Image Provisioner
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5294847Z Hosted Compute Agent
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5296041Z Version: 20260213.493
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5297115Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5298453Z Build Date: 2026-02-13T00:28:41Z
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5299622Z Worker ID: {d6ae4a3a-48d3-438b-bbb8-68637fd1d964}
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5300883Z Azure Region: centralus
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5301712Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5303412Z ##[group]Operating System
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5304164Z Ubuntu
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5304653Z 24.04.3
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5305433Z LTS
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5306190Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5306937Z ##[group]Runner Image
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5307457Z Image: ubuntu-24.04
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5308114Z Version: 20260302.42.1
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5309075Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5311153Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5312062Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5313234Z ##[group]GITHUB_TOKEN Permissions
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5315384Z Contents: read
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5315956Z Metadata: read
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5316545Z Packages: read
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5317057Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5319077Z Secret source: Actions
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5320177Z Prepare workflow directory
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5653774Z Prepare all required actions
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.5692035Z Getting action download info
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:01.9359592Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:02.1228627Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:02.2582125Z Download action repository 'codecov/codecov-action@v3' (SHA:ab904c41d6ece82784817410c45d8b8c02684457)
+Run Tests (ubuntu-latest, 20)	Set up job	2026-03-05T06:07:02.9232777Z Complete job name: Run Tests (ubuntu-latest, 20)
+Run Tests (ubuntu-latest, 20)	Checkout code	﻿2026-03-05T06:07:03.0001958Z ##[group]Run actions/checkout@v4
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0003272Z with:
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0004099Z   repository: mrigankad/PlaywrightAutomation
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0005423Z   token: ***
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0006153Z   ssh-strict: true
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0006906Z   ssh-user: git
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0007755Z   persist-credentials: true
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0008627Z   clean: true
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0009406Z   sparse-checkout-cone-mode: true
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0010508Z   fetch-depth: 1
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0011268Z   fetch-tags: false
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0012054Z   show-progress: true
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0012844Z   lfs: false
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0013560Z   submodules: false
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0014345Z   set-safe-directory: true
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.0015437Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1128240Z Syncing repository: mrigankad/PlaywrightAutomation
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1131263Z ##[group]Getting Git version info
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1132936Z Working directory is '/home/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1135129Z [command]/usr/bin/git version
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1196754Z git version 2.53.0
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1225729Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1240919Z Temporarily overriding HOME='/home/runner/work/_temp/9b18d580-09e9-4135-8750-201553d3912b' before making global git config changes
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1243675Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1253946Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1294070Z Deleting the contents of '/home/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1297135Z ##[group]Initializing the repository
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1301625Z [command]/usr/bin/git init /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1408328Z hint: Using 'master' as the name for the initial branch. This default branch name
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1412267Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1414990Z hint: to use in all of your new repositories, which will suppress this warning,
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1416427Z hint: call:
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1417115Z hint:
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1417987Z hint: 	git config --global init.defaultBranch <name>
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1419706Z hint:
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1421013Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1423006Z hint: 'development'. The just-created branch can be renamed via this command:
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1424935Z hint:
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1425698Z hint: 	git branch -m <name>
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1426546Z hint:
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1427677Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1430189Z Initialized empty Git repository in /home/runner/work/PlaywrightAutomation/PlaywrightAutomation/.git/
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1433907Z [command]/usr/bin/git remote add origin https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1462624Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1463997Z ##[group]Disabling automatic garbage collection
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1466397Z [command]/usr/bin/git config --local gc.auto 0
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1496924Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1498184Z ##[group]Setting up auth
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1504139Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1538886Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1884313Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.1919926Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.2151000Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.2184118Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.2427250Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.2462273Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.2463652Z ##[group]Fetching the repository
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.2471116Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a7ad6c32079d8bcf5b5723a80902806753391bc6:refs/remotes/origin/main
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.5709029Z From https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.5711134Z  * [new ref]         a7ad6c32079d8bcf5b5723a80902806753391bc6 -> origin/main
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.5747227Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.5749495Z ##[group]Determining the checkout info
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.5752323Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.5754331Z [command]/usr/bin/git sparse-checkout disable
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.5848609Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.5881792Z ##[group]Checking out the ref
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.5885587Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.6015054Z Switched to a new branch 'main'
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.6017667Z branch 'main' set up to track 'origin/main'.
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.6024645Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.6059493Z [command]/usr/bin/git log -1 --format=%H
+Run Tests (ubuntu-latest, 20)	Checkout code	2026-03-05T06:07:03.6083471Z a7ad6c32079d8bcf5b5723a80902806753391bc6
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	﻿2026-03-05T06:07:03.6382986Z ##[group]Run actions/setup-node@v4
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:03.6383954Z with:
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:03.6384610Z   node-version: 20
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:03.6385321Z   cache: npm
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:03.6386008Z   always-auth: false
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:03.6386945Z   check-latest: false
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:03.6387937Z   token: ***
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:03.6388606Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:03.8659944Z Found in cache @ /opt/hostedtoolcache/node/20.20.0/x64
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:03.8667366Z ##[group]Environment details
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.2638837Z node: v20.20.0
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.2639458Z npm: 10.8.2
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.2639825Z yarn: 1.22.22
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.2643709Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.2667696Z [command]/opt/hostedtoolcache/node/20.20.0/x64/bin/npm config get cache
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.5704880Z /home/runner/.npm
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.7676276Z Cache hit for: node-cache-Linux-x64-npm-199db431ba4ea8894e631b2a797ce31123f166bd0b7fe4694b6b40a14248b80e
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:07.6417892Z Received 42618709 of 42618709 (100.0%), 54.3 MBs/sec
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:07.6418836Z Cache Size: ~41 MB (42618709 B)
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:07.6450465Z [command]/usr/bin/tar -xf /home/runner/work/_temp/5548b0e4-66f9-49f1-b03a-d6a327222927/cache.tzst -P -C /home/runner/work/PlaywrightAutomation/PlaywrightAutomation --use-compress-program unzstd
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:07.8024378Z Cache restored successfully
+Run Tests (ubuntu-latest, 20)	Setup Node.js 20	2026-03-05T06:07:07.8146223Z Cache restored from key: node-cache-Linux-x64-npm-199db431ba4ea8894e631b2a797ce31123f166bd0b7fe4694b6b40a14248b80e
+Run Tests (ubuntu-latest, 20)	Install dependencies	﻿2026-03-05T06:07:07.8333895Z ##[group]Run npm ci
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:07.8334196Z [36;1mnpm ci[0m
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:07.8409934Z shell: /usr/bin/bash -e {0}
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:07.8410542Z ##[endgroup]
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:13.3441259Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:13.5479082Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:13.9969243Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1079562Z 
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1080804Z > @email-automation/core@1.0.0 prepare
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1081476Z > husky
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1081956Z 
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1654141Z 
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1655202Z added 613 packages, and audited 614 packages in 7s
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1655687Z 
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1660051Z 180 packages are looking for funding
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1660815Z   run `npm fund` for details
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1668366Z 
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.1668662Z found 0 vulnerabilities
+Run Tests (ubuntu-latest, 20)	Install dependencies	2026-03-05T06:07:15.2088481Z ##[error]The operation was canceled.
+Run Tests (ubuntu-latest, 20)	Post Checkout code	﻿2026-03-05T06:07:15.2200064Z Post job cleanup.
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3172804Z [command]/usr/bin/git version
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3209221Z git version 2.53.0
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3254220Z Temporarily overriding HOME='/home/runner/work/_temp/d7d5b01d-0ab8-43e4-9cee-183eabbb52e1' before making global git config changes
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3255799Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3261342Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3298679Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3332835Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3578021Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3599701Z http.https://github.com/.extraheader
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3612764Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3647127Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3878777Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (ubuntu-latest, 20)	Post Checkout code	2026-03-05T06:07:15.3911357Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Tests (ubuntu-latest, 20)	Complete job	﻿2026-03-05T06:07:15.4309131Z Cleaning up orphan processes
+Run Tests (windows-latest, 18)	Set up job	﻿2026-03-05T06:07:05.4439922Z Current runner version: '2.331.0'
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4502497Z ##[group]Runner Image Provisioner
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4503615Z Hosted Compute Agent
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4504426Z Version: 20260213.493
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4505245Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4506307Z Build Date: 2026-02-13T00:28:41Z
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4507730Z Worker ID: {2189b767-8642-4f01-9daa-3e2442b37df3}
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4508831Z Azure Region: northcentralus
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4509743Z ##[endgroup]
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4511789Z ##[group]Operating System
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4512896Z Microsoft Windows Server 2025
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4513677Z 10.0.26100
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4514376Z Datacenter
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4515048Z ##[endgroup]
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4515844Z ##[group]Runner Image
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4516735Z Image: windows-2025
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4517543Z Version: 20260302.43.1
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4519238Z Included Software: https://github.com/actions/runner-images/blob/win25/20260302.43/images/windows/Windows2025-Readme.md
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4522311Z Image Release: https://github.com/actions/runner-images/releases/tag/win25%2F20260302.43
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4523870Z ##[endgroup]
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4526333Z ##[group]GITHUB_TOKEN Permissions
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4528688Z Contents: read
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4529530Z Metadata: read
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4530207Z Packages: read
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4530946Z ##[endgroup]
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4533527Z Secret source: Actions
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4534502Z Prepare workflow directory
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4932031Z Prepare all required actions
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.4971747Z Getting action download info
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.7878600Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:05.9137524Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:06.0683629Z Download action repository 'codecov/codecov-action@v3' (SHA:ab904c41d6ece82784817410c45d8b8c02684457)
+Run Tests (windows-latest, 18)	Set up job	2026-03-05T06:07:06.6864276Z Complete job name: Run Tests (windows-latest, 18)
+Run Tests (windows-latest, 18)	Checkout code	﻿2026-03-05T06:07:06.8132614Z ##[group]Run actions/checkout@v4
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8133711Z with:
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8134173Z   repository: mrigankad/PlaywrightAutomation
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8134901Z   token: ***
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8135295Z   ssh-strict: true
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8135691Z   ssh-user: git
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8136081Z   persist-credentials: true
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8136536Z   clean: true
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8136924Z   sparse-checkout-cone-mode: true
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8137408Z   fetch-depth: 1
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8137787Z   fetch-tags: false
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8138180Z   show-progress: true
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8138568Z   lfs: false
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8138928Z   submodules: false
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8139340Z   set-safe-directory: true
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.8139999Z ##[endgroup]
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.9754784Z Syncing repository: mrigankad/PlaywrightAutomation
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.9756641Z ##[group]Getting Git version info
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:06.9757424Z Working directory is 'D:\a\PlaywrightAutomation\PlaywrightAutomation'
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.0853025Z [command]"C:\Program Files\Git\bin\git.exe" version
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.5183096Z git version 2.53.0.windows.1
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.5239035Z ##[endgroup]
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.5259773Z Temporarily overriding HOME='D:\a\_temp\e0cab755-e992-4987-9420-9c2dfb580387' before making global git config changes
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.5262006Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.5271741Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\PlaywrightAutomation\PlaywrightAutomation
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.5840765Z Deleting the contents of 'D:\a\PlaywrightAutomation\PlaywrightAutomation'
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.5847285Z ##[group]Initializing the repository
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.5858139Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\PlaywrightAutomation\PlaywrightAutomation
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.7106743Z Initialized empty Git repository in D:/a/PlaywrightAutomation/PlaywrightAutomation/.git/
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.7153200Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.7715848Z ##[endgroup]
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.7717132Z ##[group]Disabling automatic garbage collection
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.7725469Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.8007317Z ##[endgroup]
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.8008762Z ##[group]Setting up auth
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.8025648Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:07.8311823Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:09.3241533Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:09.3533837Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:09.8802491Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:09.9106811Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:10.4321332Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:10.4628932Z ##[endgroup]
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:10.4629687Z ##[group]Fetching the repository
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:10.4641874Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a7ad6c32079d8bcf5b5723a80902806753391bc6:refs/remotes/origin/main
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.4702287Z From https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.5228100Z  * [new ref]         a7ad6c32079d8bcf5b5723a80902806753391bc6 -> origin/main
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.5230571Z ##[endgroup]
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.5230915Z ##[group]Determining the checkout info
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.5232879Z ##[endgroup]
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.5248896Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.5725583Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.6010379Z ##[group]Checking out the ref
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.6022999Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.6746282Z Switched to a new branch 'main'
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.6770583Z branch 'main' set up to track 'origin/main'.
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.6817689Z ##[endgroup]
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.7294362Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+Run Tests (windows-latest, 18)	Checkout code	2026-03-05T06:07:11.7570550Z a7ad6c32079d8bcf5b5723a80902806753391bc6
+Run Tests (windows-latest, 18)	Setup Node.js 18	﻿2026-03-05T06:07:11.7999550Z ##[group]Run actions/setup-node@v4
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:11.7999895Z with:
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:11.8000059Z   node-version: 18
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:11.8000247Z   cache: npm
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:11.8000810Z   always-auth: false
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:11.8001022Z   check-latest: false
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:11.8001362Z   token: ***
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:11.8001548Z ##[endgroup]
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:12.0597327Z Attempting to download 18...
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:12.5290994Z Acquiring 18.20.8 - x64 from https://github.com/actions/node-versions/releases/download/18.20.8-14110393767/node-18.20.8-win32-x64.7z
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:12.8155915Z Extracting ...
+Run Tests (windows-latest, 18)	Setup Node.js 18	2026-03-05T06:07:14.6901711Z ##[error]The operation was canceled.
+Run Tests (windows-latest, 18)	Post Checkout code	﻿2026-03-05T06:07:15.0608983Z Post job cleanup.
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:15.7447585Z [command]"C:\Program Files\Git\bin\git.exe" version
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:15.7741484Z git version 2.53.0.windows.1
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:15.7821413Z Temporarily overriding HOME='D:\a\_temp\816c5bd9-e4c0-4a94-975b-3ecafa0bff91' before making global git config changes
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:15.7822153Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:15.7839473Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\PlaywrightAutomation\PlaywrightAutomation
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:15.8190747Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:15.8522643Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:16.3990039Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:16.4267631Z http.https://github.com/.extraheader
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:16.4327372Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:16.4654835Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:17.0233910Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (windows-latest, 18)	Post Checkout code	2026-03-05T06:07:17.0585347Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+Run Tests (windows-latest, 18)	Complete job	﻿2026-03-05T06:07:17.6314336Z Cleaning up orphan processes
+Run Tests (macos-latest, 20)	Set up job	﻿2026-03-05T06:07:02.2304220Z Current runner version: '2.331.0'
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2338900Z ##[group]Runner Image Provisioner
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2339460Z Hosted Compute Agent
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2339770Z Version: 20260213.493
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2340140Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2340580Z Build Date: 2026-02-13T00:28:41Z
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2340990Z Worker ID: {cd6f2d08-a07f-493c-9e72-3fcbc38d691f}
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2341400Z Azure Region: westus
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2341730Z ##[endgroup]
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2342600Z ##[group]Operating System
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2342950Z macOS
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2343220Z 15.7.4
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2343480Z 24G517
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2343750Z ##[endgroup]
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2344030Z ##[group]Runner Image
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2344350Z Image: macos-15-arm64
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2344660Z Version: 20260303.0188.2
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2345320Z Included Software: https://github.com/actions/runner-images/blob/macos-15-arm64/20260303.0188/images/macos/macos-15-arm64-Readme.md
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2346330Z Image Release: https://github.com/actions/runner-images/releases/tag/macos-15-arm64%2F20260303.0188
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2346910Z ##[endgroup]
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2347570Z ##[group]GITHUB_TOKEN Permissions
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2348620Z Contents: read
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2348920Z Metadata: read
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2349210Z Packages: read
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2349500Z ##[endgroup]
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2350980Z Secret source: Actions
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2351360Z Prepare workflow directory
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2563380Z Prepare all required actions
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.2591090Z Getting action download info
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.6129820Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.7976310Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:02.9056820Z Download action repository 'codecov/codecov-action@v3' (SHA:ab904c41d6ece82784817410c45d8b8c02684457)
+Run Tests (macos-latest, 20)	Set up job	2026-03-05T06:07:04.4450030Z Complete job name: Run Tests (macos-latest, 20)
+Run Tests (macos-latest, 20)	Checkout code	﻿2026-03-05T06:07:04.4902070Z ##[group]Run actions/checkout@v4
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4902650Z with:
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4902990Z   repository: mrigankad/PlaywrightAutomation
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4903570Z   token: ***
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4903860Z   ssh-strict: true
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4904160Z   ssh-user: git
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4904480Z   persist-credentials: true
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4904810Z   clean: true
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4905120Z   sparse-checkout-cone-mode: true
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4905490Z   fetch-depth: 1
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4905790Z   fetch-tags: false
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4906110Z   show-progress: true
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4906420Z   lfs: false
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4906700Z   submodules: false
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4907040Z   set-safe-directory: true
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.4907470Z ##[endgroup]
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.7822490Z Syncing repository: mrigankad/PlaywrightAutomation
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.7824220Z ##[group]Getting Git version info
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.7824920Z Working directory is '/Users/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.7825820Z [command]/opt/homebrew/bin/git version
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8100800Z git version 2.53.0
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8129600Z ##[endgroup]
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8138900Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/504159b2-1486-449a-97e9-a609118c2231/.gitconfig'
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8142910Z Temporarily overriding HOME='/Users/runner/work/_temp/504159b2-1486-449a-97e9-a609118c2231' before making global git config changes
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8144340Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8147400Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8262560Z Deleting the contents of '/Users/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8264580Z ##[group]Initializing the repository
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8268480Z [command]/opt/homebrew/bin/git init /Users/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8464190Z hint: Using 'master' as the name for the initial branch. This default branch name
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8466810Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8468800Z hint: to use in all of your new repositories, which will suppress this warning,
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8470510Z hint: call:
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8471370Z hint:
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8472450Z hint: 	git config --global init.defaultBranch <name>
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8473690Z hint:
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8475020Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8476940Z hint: 'development'. The just-created branch can be renamed via this command:
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8478510Z hint:
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8479410Z hint: 	git branch -m <name>
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8480440Z hint:
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8481800Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8484410Z Initialized empty Git repository in /Users/runner/work/PlaywrightAutomation/PlaywrightAutomation/.git/
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8488950Z [command]/opt/homebrew/bin/git remote add origin https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8545860Z ##[endgroup]
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8546530Z ##[group]Disabling automatic garbage collection
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8547080Z [command]/opt/homebrew/bin/git config --local gc.auto 0
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8612060Z ##[endgroup]
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8612740Z ##[group]Setting up auth
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8618570Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.8686230Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:04.9956800Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.0049870Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.0808500Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.0868230Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.1552340Z [command]/opt/homebrew/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.1610850Z ##[endgroup]
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.1611480Z ##[group]Fetching the repository
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.1616110Z [command]/opt/homebrew/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a7ad6c32079d8bcf5b5723a80902806753391bc6:refs/remotes/origin/main
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8349530Z From https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8350240Z  * [new ref]         a7ad6c32079d8bcf5b5723a80902806753391bc6 -> origin/main
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8438830Z ##[endgroup]
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8439540Z ##[group]Determining the checkout info
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8440200Z ##[endgroup]
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8441790Z [command]/opt/homebrew/bin/git sparse-checkout disable
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8512690Z [command]/opt/homebrew/bin/git config --local --unset-all extensions.worktreeConfig
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8570780Z ##[group]Checking out the ref
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8572920Z [command]/opt/homebrew/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8744610Z Switched to a new branch 'main'
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8746520Z branch 'main' set up to track 'origin/main'.
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8751620Z ##[endgroup]
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8821140Z [command]/opt/homebrew/bin/git log -1 --format=%H
+Run Tests (macos-latest, 20)	Checkout code	2026-03-05T06:07:05.8873600Z a7ad6c32079d8bcf5b5723a80902806753391bc6
+Run Tests (macos-latest, 20)	Setup Node.js 20	﻿2026-03-05T06:07:05.9051140Z ##[group]Run actions/setup-node@v4
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:05.9051530Z with:
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:05.9051790Z   node-version: 20
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:05.9052050Z   cache: npm
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:05.9052320Z   always-auth: false
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:05.9052620Z   check-latest: false
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:05.9053000Z   token: ***
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:05.9053290Z ##[endgroup]
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.0535990Z Found in cache @ /Users/runner/hostedtoolcache/node/20.20.0/arm64
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.0540210Z ##[group]Environment details
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.5136900Z node: v20.20.0
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.5137840Z npm: 10.8.2
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.5138340Z yarn: 1.22.22
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.5139390Z ##[endgroup]
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.5156220Z [command]/Users/runner/hostedtoolcache/node/20.20.0/arm64/bin/npm config get cache
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.7403680Z /Users/runner/.npm
+Run Tests (macos-latest, 20)	Setup Node.js 20	2026-03-05T06:07:06.9268690Z npm cache is not found
+Run Tests (macos-latest, 20)	Install dependencies	﻿2026-03-05T06:07:06.9377440Z ##[group]Run npm ci
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:06.9378220Z [36;1mnpm ci[0m
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:06.9422650Z shell: /bin/bash -e {0}
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:06.9423320Z ##[endgroup]
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:09.2295640Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:10.1722910Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:10.2860860Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2161980Z 
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2163130Z > @email-automation/core@1.0.0 prepare
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2163710Z > husky
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2164080Z 
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2810850Z 
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2856440Z added 613 packages, and audited 614 packages in 5s
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2866070Z 
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2866770Z 180 packages are looking for funding
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2868040Z   run `npm fund` for details
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2869120Z 
+Run Tests (macos-latest, 20)	Install dependencies	2026-03-05T06:07:12.2870410Z found 0 vulnerabilities
+Run Tests (macos-latest, 20)	Run unit tests	﻿2026-03-05T06:07:12.2965940Z ##[group]Run npm run test:unit -- --coverage
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.2966260Z [36;1mnpm run test:unit -- --coverage[0m
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.3004630Z shell: /bin/bash -e {0}
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.3005090Z ##[endgroup]
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.4569590Z 
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.4570480Z > @email-automation/core@1.0.0 test:unit
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.4571240Z > jest --testPathPattern=unit --coverage
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.4571640Z 
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.5889350Z testPathPattern:
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.5890810Z 
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.5891910Z   Option "testPathPattern" was replaced by "--testPathPatterns". "--testPathPatterns" is only available as a command-line option.
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.5892520Z   
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.5892930Z   Please update your configuration.
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.5893460Z 
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.5893870Z   CLI Options Documentation:
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.5894360Z   https://jestjs.io/docs/cli
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.5896080Z 
+Run Tests (macos-latest, 20)	Run unit tests	2026-03-05T06:07:12.5996730Z ##[error]Process completed with exit code 1.
+Run Tests (macos-latest, 20)	Post Checkout code	﻿2026-03-05T06:07:12.6114890Z Post job cleanup.
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.6988590Z [command]/opt/homebrew/bin/git version
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.7043040Z git version 2.53.0
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.7067250Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/2c1af11f-01b6-476b-9f47-8a319701bac4/.gitconfig'
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.7075800Z Temporarily overriding HOME='/Users/runner/work/_temp/2c1af11f-01b6-476b-9f47-8a319701bac4' before making global git config changes
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.7083390Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.7084610Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.7146680Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.7208120Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.7890870Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.7942610Z http.https://github.com/.extraheader
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.7951380Z [command]/opt/homebrew/bin/git config --local --unset-all http.https://github.com/.extraheader
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.8007750Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.8674310Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (macos-latest, 20)	Post Checkout code	2026-03-05T06:07:12.8741680Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Tests (macos-latest, 20)	Complete job	﻿2026-03-05T06:07:13.0020950Z Cleaning up orphan processes
+Run Tests (ubuntu-latest, 18)	Set up job	﻿2026-03-05T06:07:07.8578444Z Current runner version: '2.331.0'
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8613841Z ##[group]Runner Image Provisioner
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8615133Z Hosted Compute Agent
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8616183Z Version: 20260213.493
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8617275Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8618575Z Build Date: 2026-02-13T00:28:41Z
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8619798Z Worker ID: {1e1cd1ce-cad0-4f94-853c-8e0ec5feb397}
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8621001Z Azure Region: eastus
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8622100Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8624482Z ##[group]Operating System
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8625433Z Ubuntu
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8626281Z 24.04.3
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8627079Z LTS
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8627812Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8628736Z ##[group]Runner Image
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8629636Z Image: ubuntu-24.04
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8630396Z Version: 20260302.42.1
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8632290Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8635669Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8637310Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8639155Z ##[group]GITHUB_TOKEN Permissions
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8641801Z Contents: read
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8642942Z Metadata: read
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8644534Z Packages: read
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8645496Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8648419Z Secret source: Actions
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.8650076Z Prepare workflow directory
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.9124213Z Prepare all required actions
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:07.9183013Z Getting action download info
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:08.1514303Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:08.3089226Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:08.4086587Z Download action repository 'codecov/codecov-action@v3' (SHA:ab904c41d6ece82784817410c45d8b8c02684457)
+Run Tests (ubuntu-latest, 18)	Set up job	2026-03-05T06:07:08.7185603Z Complete job name: Run Tests (ubuntu-latest, 18)
+Run Tests (ubuntu-latest, 18)	Checkout code	﻿2026-03-05T06:07:08.7832252Z ##[group]Run actions/checkout@v4
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7833282Z with:
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7833725Z   repository: mrigankad/PlaywrightAutomation
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7834433Z   token: ***
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7834805Z   ssh-strict: true
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7835178Z   ssh-user: git
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7835562Z   persist-credentials: true
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7835992Z   clean: true
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7836385Z   sparse-checkout-cone-mode: true
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7836841Z   fetch-depth: 1
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7837210Z   fetch-tags: false
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7837595Z   show-progress: true
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7837981Z   lfs: false
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7838336Z   submodules: false
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7838720Z   set-safe-directory: true
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.7839345Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.8970905Z Syncing repository: mrigankad/PlaywrightAutomation
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.8972998Z ##[group]Getting Git version info
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.8973887Z Working directory is '/home/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.8975024Z [command]/usr/bin/git version
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9036201Z git version 2.53.0
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9063976Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9081096Z Temporarily overriding HOME='/home/runner/work/_temp/48b135d7-f8f9-44c6-b366-8420f979d069' before making global git config changes
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9083822Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9097283Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9144443Z Deleting the contents of '/home/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9148188Z ##[group]Initializing the repository
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9152785Z [command]/usr/bin/git init /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9259138Z hint: Using 'master' as the name for the initial branch. This default branch name
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9260650Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9261689Z hint: to use in all of your new repositories, which will suppress this warning,
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9262839Z hint: call:
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9263533Z hint:
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9264219Z hint: 	git config --global init.defaultBranch <name>
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9264854Z hint:
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9265440Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9266432Z hint: 'development'. The just-created branch can be renamed via this command:
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9267213Z hint:
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9267597Z hint: 	git branch -m <name>
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9268068Z hint:
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9268906Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9270677Z Initialized empty Git repository in /home/runner/work/PlaywrightAutomation/PlaywrightAutomation/.git/
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9275137Z [command]/usr/bin/git remote add origin https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9309299Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9310080Z ##[group]Disabling automatic garbage collection
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9314002Z [command]/usr/bin/git config --local gc.auto 0
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9344875Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9346275Z ##[group]Setting up auth
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9353042Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9387761Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9750852Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:08.9786650Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.0027706Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.0061322Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.0315791Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.0352131Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.0353834Z ##[group]Fetching the repository
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.0361703Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a7ad6c32079d8bcf5b5723a80902806753391bc6:refs/remotes/origin/main
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2530457Z From https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2533028Z  * [new ref]         a7ad6c32079d8bcf5b5723a80902806753391bc6 -> origin/main
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2570523Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2571933Z ##[group]Determining the checkout info
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2574983Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2579356Z [command]/usr/bin/git sparse-checkout disable
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2625308Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2656392Z ##[group]Checking out the ref
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2660394Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2772889Z Switched to a new branch 'main'
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2775267Z branch 'main' set up to track 'origin/main'.
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2783682Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2820997Z [command]/usr/bin/git log -1 --format=%H
+Run Tests (ubuntu-latest, 18)	Checkout code	2026-03-05T06:07:09.2845076Z a7ad6c32079d8bcf5b5723a80902806753391bc6
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	﻿2026-03-05T06:07:09.3163970Z ##[group]Run actions/setup-node@v4
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:09.3165098Z with:
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:09.3165793Z   node-version: 18
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:09.3166568Z   cache: npm
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:09.3167311Z   always-auth: false
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:09.3168334Z   check-latest: false
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:09.3169454Z   token: ***
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:09.3170166Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:09.5030166Z Attempting to download 18...
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:09.8714897Z Acquiring 18.20.8 - x64 from https://github.com/actions/node-versions/releases/download/18.20.8-14110393767/node-18.20.8-linux-x64.tar.gz
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:10.2484916Z Extracting ...
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:10.2597546Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/e28897c2-ddfc-4ef7-91c4-bfddf9cee27b -f /home/runner/work/_temp/b694a983-8352-4df3-a722-64d3a748a70a
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:11.2147555Z Adding to the cache ...
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.0058321Z ##[group]Environment details
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.2477548Z node: v18.20.8
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.2478442Z npm: 10.8.2
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.2478871Z yarn: 1.22.22
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.2480275Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.2504272Z [command]/opt/hostedtoolcache/node/18.20.8/x64/bin/npm config get cache
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.3694042Z /home/runner/.npm
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.4356437Z Cache hit for: node-cache-Linux-x64-npm-199db431ba4ea8894e631b2a797ce31123f166bd0b7fe4694b6b40a14248b80e
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.8351076Z Received 42618709 of 42618709 (100.0%), 116.1 MBs/sec
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.8352263Z Cache Size: ~41 MB (42618709 B)
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.8380958Z [command]/usr/bin/tar -xf /home/runner/work/_temp/804ead68-88a8-4891-81e7-b61188742209/cache.tzst -P -C /home/runner/work/PlaywrightAutomation/PlaywrightAutomation --use-compress-program unzstd
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:13.9922807Z Cache restored successfully
+Run Tests (ubuntu-latest, 18)	Setup Node.js 18	2026-03-05T06:07:14.0019311Z Cache restored from key: node-cache-Linux-x64-npm-199db431ba4ea8894e631b2a797ce31123f166bd0b7fe4694b6b40a14248b80e
+Run Tests (ubuntu-latest, 18)	Install dependencies	﻿2026-03-05T06:07:14.0293903Z ##[group]Run npm ci
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.0294241Z [36;1mnpm ci[0m
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.0350064Z shell: /usr/bin/bash -e {0}
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.0350385Z ##[endgroup]
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7516895Z npm warn EBADENGINE Unsupported engine {
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7517904Z npm warn EBADENGINE   package: 'eslint-visitor-keys@5.0.1',
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7518931Z npm warn EBADENGINE   required: { node: '^20.19.0 || ^22.13.0 || >=24' },
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7519862Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7520500Z npm warn EBADENGINE }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7521458Z npm warn EBADENGINE Unsupported engine {
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7522927Z npm warn EBADENGINE   package: 'cli-truncate@5.2.0',
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7523886Z npm warn EBADENGINE   required: { node: '>=20' },
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7524726Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7525416Z npm warn EBADENGINE }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7526357Z npm warn EBADENGINE Unsupported engine {
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7527591Z npm warn EBADENGINE   package: 'string-width@8.2.0',
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7528448Z npm warn EBADENGINE   required: { node: '>=20' },
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7529254Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7529953Z npm warn EBADENGINE }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7531061Z npm warn EBADENGINE Unsupported engine {
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7532162Z npm warn EBADENGINE   package: 'commander@14.0.3',
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7549751Z npm warn EBADENGINE   required: { node: '>=20' },
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7550986Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7551835Z npm warn EBADENGINE }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7552475Z npm warn EBADENGINE Unsupported engine {
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7553547Z npm warn EBADENGINE   package: 'lint-staged@16.3.2',
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7554497Z npm warn EBADENGINE   required: { node: '>=20.17' },
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7555542Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7556369Z npm warn EBADENGINE }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7557027Z npm warn EBADENGINE Unsupported engine {
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7557887Z npm warn EBADENGINE   package: 'listr2@9.0.5',
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7558776Z npm warn EBADENGINE   required: { node: '>=20.0.0' },
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7560327Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7561151Z npm warn EBADENGINE }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7561841Z npm warn EBADENGINE Unsupported engine {
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7562784Z npm warn EBADENGINE   package: 'rimraf@6.1.3',
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7563538Z npm warn EBADENGINE   required: { node: '20 || >=22' },
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7564397Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7565059Z npm warn EBADENGINE }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7565579Z npm warn EBADENGINE Unsupported engine {
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7566251Z npm warn EBADENGINE   package: 'lru-cache@11.2.6',
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7567043Z npm warn EBADENGINE   required: { node: '20 || >=22' },
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7567966Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7568625Z npm warn EBADENGINE }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7569155Z npm warn EBADENGINE Unsupported engine {
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7569837Z npm warn EBADENGINE   package: 'slice-ansi@8.0.0',
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7570563Z npm warn EBADENGINE   required: { node: '>=20' },
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7571411Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:14.7572076Z npm warn EBADENGINE }
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:16.5614997Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:16.8250052Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:17.3805193Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8239283Z 
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8240232Z > @email-automation/core@1.0.0 prepare
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8240844Z > husky
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8241054Z 
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8905376Z 
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8906603Z added 613 packages, and audited 614 packages in 5s
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8907456Z 
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8907964Z 180 packages are looking for funding
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8909849Z   run `npm fund` for details
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8921766Z 
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.8922151Z found 0 vulnerabilities
+Run Tests (ubuntu-latest, 18)	Install dependencies	2026-03-05T06:07:18.9398941Z ##[error]The operation was canceled.
+Run Tests (ubuntu-latest, 18)	Post Checkout code	﻿2026-03-05T06:07:18.9517099Z Post job cleanup.
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.0506304Z [command]/usr/bin/git version
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.0548348Z git version 2.53.0
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.0594522Z Temporarily overriding HOME='/home/runner/work/_temp/f3a58cd3-7ef0-4935-b08f-32c3220900d1' before making global git config changes
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.0596214Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.0601634Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.0645611Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.0682408Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.0955410Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.0981557Z http.https://github.com/.extraheader
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.0996115Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.1032849Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.1289016Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (ubuntu-latest, 18)	Post Checkout code	2026-03-05T06:07:19.1326382Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Tests (ubuntu-latest, 18)	Complete job	﻿2026-03-05T06:07:19.1770480Z Cleaning up orphan processes
+Run Tests (macos-latest, 18)	Set up job	﻿2026-03-05T06:07:02.2478060Z Current runner version: '2.331.0'
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2499040Z ##[group]Runner Image Provisioner
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2500390Z Hosted Compute Agent
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2501130Z Version: 20260213.493
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2501540Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2501970Z Build Date: 2026-02-13T00:28:41Z
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2502380Z Worker ID: {40804436-dc31-46aa-b995-9526db92a82e}
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2502870Z Azure Region: westus
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2503210Z ##[endgroup]
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2504220Z ##[group]Operating System
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2504580Z macOS
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2504870Z 15.7.4
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2505130Z 24G517
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2505400Z ##[endgroup]
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2505690Z ##[group]Runner Image
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2506010Z Image: macos-15-arm64
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2506310Z Version: 20260224.0170.1
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2506990Z Included Software: https://github.com/actions/runner-images/blob/macos-15-arm64/20260224.0170/images/macos/macos-15-arm64-Readme.md
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2508050Z Image Release: https://github.com/actions/runner-images/releases/tag/macos-15-arm64%2F20260224.0170
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2508630Z ##[endgroup]
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2509310Z ##[group]GITHUB_TOKEN Permissions
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2510600Z Contents: read
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2510900Z Metadata: read
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2511190Z Packages: read
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2511480Z ##[endgroup]
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2513140Z Secret source: Actions
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2513530Z Prepare workflow directory
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2819120Z Prepare all required actions
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.2884870Z Getting action download info
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:02.7527780Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:03.0033740Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:03.1358510Z Download action repository 'codecov/codecov-action@v3' (SHA:ab904c41d6ece82784817410c45d8b8c02684457)
+Run Tests (macos-latest, 18)	Set up job	2026-03-05T06:07:04.3529290Z Complete job name: Run Tests (macos-latest, 18)
+Run Tests (macos-latest, 18)	Checkout code	﻿2026-03-05T06:07:04.4125150Z ##[group]Run actions/checkout@v4
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4126050Z with:
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4126630Z   repository: mrigankad/PlaywrightAutomation
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4127680Z   token: ***
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4128170Z   ssh-strict: true
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4128680Z   ssh-user: git
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4129240Z   persist-credentials: true
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4129820Z   clean: true
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4130350Z   sparse-checkout-cone-mode: true
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4130990Z   fetch-depth: 1
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4131500Z   fetch-tags: false
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4132040Z   show-progress: true
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4132570Z   lfs: false
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4133060Z   submodules: false
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4133590Z   set-safe-directory: true
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.4134360Z ##[endgroup]
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.8806070Z Syncing repository: mrigankad/PlaywrightAutomation
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.8812270Z ##[group]Getting Git version info
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.8817970Z Working directory is '/Users/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.8826840Z [command]/opt/homebrew/bin/git version
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9415690Z git version 2.53.0
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9442370Z ##[endgroup]
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9454500Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/a06171fb-a8e8-4dad-85cb-a142d082aaaa/.gitconfig'
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9475750Z Temporarily overriding HOME='/Users/runner/work/_temp/a06171fb-a8e8-4dad-85cb-a142d082aaaa' before making global git config changes
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9480470Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9484980Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9656040Z Deleting the contents of '/Users/runner/work/PlaywrightAutomation/PlaywrightAutomation'
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9658350Z ##[group]Initializing the repository
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9660780Z [command]/opt/homebrew/bin/git init /Users/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9916480Z hint: Using 'master' as the name for the initial branch. This default branch name
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9920000Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9923080Z hint: to use in all of your new repositories, which will suppress this warning,
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9925440Z hint: call:
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9926610Z hint:
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9928190Z hint: 	git config --global init.defaultBranch <name>
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9930140Z hint:
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9931920Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9934250Z hint: 'development'. The just-created branch can be renamed via this command:
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9935350Z hint:
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9935880Z hint: 	git branch -m <name>
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9936470Z hint:
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9937300Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9939090Z Initialized empty Git repository in /Users/runner/work/PlaywrightAutomation/PlaywrightAutomation/.git/
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:04.9949480Z [command]/opt/homebrew/bin/git remote add origin https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.0107750Z ##[endgroup]
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.0110360Z ##[group]Disabling automatic garbage collection
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.0112580Z [command]/opt/homebrew/bin/git config --local gc.auto 0
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.0184930Z ##[endgroup]
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.0187440Z ##[group]Setting up auth
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.0191010Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.0274860Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.1463390Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.1529020Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.3055430Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.4175610Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.4690440Z [command]/opt/homebrew/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.4762980Z ##[endgroup]
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.4766050Z ##[group]Fetching the repository
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:05.4768110Z [command]/opt/homebrew/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a7ad6c32079d8bcf5b5723a80902806753391bc6:refs/remotes/origin/main
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0058070Z From https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0074210Z  * [new ref]         a7ad6c32079d8bcf5b5723a80902806753391bc6 -> origin/main
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0226540Z ##[endgroup]
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0227810Z ##[group]Determining the checkout info
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0228900Z ##[endgroup]
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0234480Z [command]/opt/homebrew/bin/git sparse-checkout disable
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0289040Z [command]/opt/homebrew/bin/git config --local --unset-all extensions.worktreeConfig
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0405670Z ##[group]Checking out the ref
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0407220Z [command]/opt/homebrew/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0696770Z Switched to a new branch 'main'
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.0816960Z branch 'main' set up to track 'origin/main'.
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.1124430Z ##[endgroup]
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.1141630Z [command]/opt/homebrew/bin/git log -1 --format=%H
+Run Tests (macos-latest, 18)	Checkout code	2026-03-05T06:07:06.1144940Z a7ad6c32079d8bcf5b5723a80902806753391bc6
+Run Tests (macos-latest, 18)	Setup Node.js 18	﻿2026-03-05T06:07:06.1335130Z ##[group]Run actions/setup-node@v4
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:06.1335920Z with:
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:06.1336360Z   node-version: 18
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:06.1336830Z   cache: npm
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:06.1337350Z   always-auth: false
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:06.1337850Z   check-latest: false
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:06.1338570Z   token: ***
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:06.1339130Z ##[endgroup]
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:06.2923310Z Attempting to download 18...
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:07.1811810Z Acquiring 18.20.8 - arm64 from https://github.com/actions/node-versions/releases/download/18.20.8-14110393767/node-18.20.8-darwin-arm64.tar.gz
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:07.6908170Z Extracting ...
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:07.7003380Z [command]/usr/bin/tar xz --strip 1 -C /Users/runner/work/_temp/9521ce0b-0b62-4122-96ac-4bd04013a120 -f /Users/runner/work/_temp/871f5275-a0cb-4a3c-985f-a58f7e247445
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:08.7062000Z Adding to the cache ...
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:10.3120540Z ##[group]Environment details
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:10.6573570Z node: v18.20.8
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:10.6676090Z npm: 10.8.2
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:10.6777490Z yarn: 1.22.22
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:10.6879070Z ##[endgroup]
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:10.6980240Z [command]/Users/runner/hostedtoolcache/node/18.20.8/arm64/bin/npm config get cache
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:10.8189160Z /Users/runner/.npm
+Run Tests (macos-latest, 18)	Setup Node.js 18	2026-03-05T06:07:11.1322710Z npm cache is not found
+Run Tests (macos-latest, 18)	Install dependencies	﻿2026-03-05T06:07:11.1764690Z ##[group]Run npm ci
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.1765140Z [36;1mnpm ci[0m
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.1883580Z shell: /bin/bash -e {0}
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.1885110Z ##[endgroup]
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.7869860Z npm warn EBADENGINE Unsupported engine {
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.7969740Z npm warn EBADENGINE   package: 'eslint-visitor-keys@5.0.1',
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.8073810Z npm warn EBADENGINE   required: { node: '^20.19.0 || ^22.13.0 || >=24' },
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.8176110Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.8279400Z npm warn EBADENGINE }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.8387100Z npm warn EBADENGINE Unsupported engine {
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.8503640Z npm warn EBADENGINE   package: 'cli-truncate@5.2.0',
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.8612000Z npm warn EBADENGINE   required: { node: '>=20' },
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.8715180Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.8817990Z npm warn EBADENGINE }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.8937280Z npm warn EBADENGINE Unsupported engine {
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.9042170Z npm warn EBADENGINE   package: 'string-width@8.2.0',
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.9143580Z npm warn EBADENGINE   required: { node: '>=20' },
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.9246240Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.9348180Z npm warn EBADENGINE }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.9449550Z npm warn EBADENGINE Unsupported engine {
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.9551070Z npm warn EBADENGINE   package: 'commander@14.0.3',
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.9652390Z npm warn EBADENGINE   required: { node: '>=20' },
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.9753970Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.9855440Z npm warn EBADENGINE }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:11.9956900Z npm warn EBADENGINE Unsupported engine {
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.0058370Z npm warn EBADENGINE   package: 'lint-staged@16.3.2',
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.0159820Z npm warn EBADENGINE   required: { node: '>=20.17' },
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.0261340Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.0362760Z npm warn EBADENGINE }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.0464220Z npm warn EBADENGINE Unsupported engine {
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.0566530Z npm warn EBADENGINE   package: 'listr2@9.0.5',
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.0668280Z npm warn EBADENGINE   required: { node: '>=20.0.0' },
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.0770190Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.0871660Z npm warn EBADENGINE }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.0973230Z npm warn EBADENGINE Unsupported engine {
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.1074750Z npm warn EBADENGINE   package: 'rimraf@6.1.3',
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.1176170Z npm warn EBADENGINE   required: { node: '20 || >=22' },
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.1283910Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.1385190Z npm warn EBADENGINE }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.1486360Z npm warn EBADENGINE Unsupported engine {
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.1587660Z npm warn EBADENGINE   package: 'lru-cache@11.2.6',
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.1689400Z npm warn EBADENGINE   required: { node: '20 || >=22' },
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.1791010Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.1892410Z npm warn EBADENGINE }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.1993580Z npm warn EBADENGINE Unsupported engine {
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.2095020Z npm warn EBADENGINE   package: 'slice-ansi@8.0.0',
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.2196390Z npm warn EBADENGINE   required: { node: '>=20' },
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.2309770Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:12.2411380Z npm warn EBADENGINE }
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:13.4450550Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:14.3873600Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:14.7911730Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.3579290Z 
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.3680710Z > @email-automation/core@1.0.0 prepare
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.3781850Z > husky
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.3882640Z 
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.5296000Z 
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.5373130Z added 613 packages, and audited 614 packages in 5s
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.5380590Z 
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.5424820Z 180 packages are looking for funding
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.5427170Z   run `npm fund` for details
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.5427680Z 
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.5430360Z found 0 vulnerabilities
+Run Tests (macos-latest, 18)	Install dependencies	2026-03-05T06:07:16.5846310Z ##[error]The operation was canceled.
+Run Tests (macos-latest, 18)	Post Checkout code	﻿2026-03-05T06:07:16.5969060Z Post job cleanup.
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:16.7852030Z [command]/opt/homebrew/bin/git version
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:16.7953130Z git version 2.53.0
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:16.8467430Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/518aa7a9-64ba-49d7-9655-60e92314a8dd/.gitconfig'
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:16.8569130Z Temporarily overriding HOME='/Users/runner/work/_temp/518aa7a9-64ba-49d7-9655-60e92314a8dd' before making global git config changes
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:16.8670770Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:16.8775000Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/PlaywrightAutomation/PlaywrightAutomation
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:16.9005820Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:16.9320480Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:16.9724630Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:16.9826110Z http.https://github.com/.extraheader
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:17.0130570Z [command]/opt/homebrew/bin/git config --local --unset-all http.https://github.com/.extraheader
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:17.0438350Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:17.1338470Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (macos-latest, 18)	Post Checkout code	2026-03-05T06:07:17.1640590Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Tests (macos-latest, 18)	Complete job	﻿2026-03-05T06:07:17.2900070Z Cleaning up orphan processes
+Run Tests (windows-latest, 20)	Set up job	﻿2026-03-05T06:07:01.5452249Z Current runner version: '2.331.0'
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5512527Z ##[group]Runner Image Provisioner
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5513883Z Hosted Compute Agent
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5514737Z Version: 20260213.493
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5515654Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5516716Z Build Date: 2026-02-13T00:28:41Z
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5517694Z Worker ID: {e4f32d58-278a-4991-bbbe-365b6729a4d8}
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5518744Z Azure Region: centralus
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5519491Z ##[endgroup]
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5521994Z ##[group]Operating System
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5522887Z Microsoft Windows Server 2025
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5523797Z 10.0.26100
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5524494Z Datacenter
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5525175Z ##[endgroup]
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5525897Z ##[group]Runner Image
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5526751Z Image: windows-2025
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5527545Z Version: 20260302.43.1
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5529262Z Included Software: https://github.com/actions/runner-images/blob/win25/20260302.43/images/windows/Windows2025-Readme.md
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5532263Z Image Release: https://github.com/actions/runner-images/releases/tag/win25%2F20260302.43
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5533789Z ##[endgroup]
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5535605Z ##[group]GITHUB_TOKEN Permissions
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5538057Z Contents: read
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5538906Z Metadata: read
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5539723Z Packages: read
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5540891Z ##[endgroup]
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5543628Z Secret source: Actions
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5544688Z Prepare workflow directory
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5940054Z Prepare all required actions
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.5982631Z Getting action download info
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:01.8918993Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:02.0244309Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:02.1826589Z Download action repository 'codecov/codecov-action@v3' (SHA:ab904c41d6ece82784817410c45d8b8c02684457)
+Run Tests (windows-latest, 20)	Set up job	2026-03-05T06:07:02.9649678Z Complete job name: Run Tests (windows-latest, 20)
+Run Tests (windows-latest, 20)	Checkout code	﻿2026-03-05T06:07:03.0861371Z ##[group]Run actions/checkout@v4
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0862606Z with:
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0863146Z   repository: mrigankad/PlaywrightAutomation
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0864033Z   token: ***
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0864515Z   ssh-strict: true
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0864996Z   ssh-user: git
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0865491Z   persist-credentials: true
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0866045Z   clean: true
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0866537Z   sparse-checkout-cone-mode: true
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0867142Z   fetch-depth: 1
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0867628Z   fetch-tags: false
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0868115Z   show-progress: true
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0868614Z   lfs: false
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0869056Z   submodules: false
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0869579Z   set-safe-directory: true
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.0870344Z ##[endgroup]
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.2454870Z Syncing repository: mrigankad/PlaywrightAutomation
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.2456854Z ##[group]Getting Git version info
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.2457655Z Working directory is 'D:\a\PlaywrightAutomation\PlaywrightAutomation'
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.3537376Z [command]"C:\Program Files\Git\bin\git.exe" version
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.7686559Z git version 2.53.0.windows.1
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.7742173Z ##[endgroup]
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.7763365Z Temporarily overriding HOME='D:\a\_temp\92f8dc9b-1fd6-4021-ba04-d854acb25386' before making global git config changes
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.7765228Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.7775103Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\PlaywrightAutomation\PlaywrightAutomation
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.8337244Z Deleting the contents of 'D:\a\PlaywrightAutomation\PlaywrightAutomation'
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.8344422Z ##[group]Initializing the repository
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.8354273Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\PlaywrightAutomation\PlaywrightAutomation
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.9222431Z Initialized empty Git repository in D:/a/PlaywrightAutomation/PlaywrightAutomation/.git/
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.9268990Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.9872371Z ##[endgroup]
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.9873778Z ##[group]Disabling automatic garbage collection
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:03.9883040Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:04.0225384Z ##[endgroup]
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:04.0227033Z ##[group]Setting up auth
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:04.0238958Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:04.0548406Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:05.5185850Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:05.5483284Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:06.0918711Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:06.1229605Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:06.6751899Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:06.7072227Z ##[endgroup]
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:06.7073056Z ##[group]Fetching the repository
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:06.7087177Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a7ad6c32079d8bcf5b5723a80902806753391bc6:refs/remotes/origin/main
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:07.8292088Z From https://github.com/mrigankad/PlaywrightAutomation
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:07.8293062Z  * [new ref]         a7ad6c32079d8bcf5b5723a80902806753391bc6 -> origin/main
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:07.8774703Z ##[endgroup]
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:07.8775409Z ##[group]Determining the checkout info
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:07.8777380Z ##[endgroup]
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:07.8787620Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:07.9256497Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:07.9560652Z ##[group]Checking out the ref
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:07.9571705Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:08.0352187Z Switched to a new branch 'main'
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:08.0382406Z branch 'main' set up to track 'origin/main'.
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:08.0428067Z ##[endgroup]
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:08.0884667Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+Run Tests (windows-latest, 20)	Checkout code	2026-03-05T06:07:08.1159456Z a7ad6c32079d8bcf5b5723a80902806753391bc6
+Run Tests (windows-latest, 20)	Setup Node.js 20	﻿2026-03-05T06:07:08.1647078Z ##[group]Run actions/setup-node@v4
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:08.1647435Z with:
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:08.1647605Z   node-version: 20
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:08.1647788Z   cache: npm
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:08.1647942Z   always-auth: false
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:08.1648122Z   check-latest: false
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:08.1648450Z   token: ***
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:08.1648630Z ##[endgroup]
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:08.4145536Z Found in cache @ C:\hostedtoolcache\windows\node\20.20.0\x64
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:08.4157009Z ##[group]Environment details
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:13.1680650Z node: v20.20.0
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:13.1680926Z npm: 10.8.2
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:13.1681090Z yarn: 1.22.22
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:13.1683166Z ##[endgroup]
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:13.2528867Z [command]C:\Windows\system32\cmd.exe /D /S /C "C:\hostedtoolcache\windows\node\20.20.0\x64\npm.cmd config get cache"
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:13.7922362Z C:\npm\cache
+Run Tests (windows-latest, 20)	Setup Node.js 20	2026-03-05T06:07:14.1328493Z npm cache is not found
+Run Tests (windows-latest, 20)	Install dependencies	﻿2026-03-05T06:07:14.1650492Z ##[group]Run npm ci
+Run Tests (windows-latest, 20)	Install dependencies	2026-03-05T06:07:14.1650798Z [36;1mnpm ci[0m
+Run Tests (windows-latest, 20)	Install dependencies	2026-03-05T06:07:14.2444993Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Run Tests (windows-latest, 20)	Install dependencies	2026-03-05T06:07:14.2445490Z ##[endgroup]
+Run Tests (windows-latest, 20)	Install dependencies	2026-03-05T06:07:14.6937597Z ##[error]The operation was canceled.
+Run Tests (windows-latest, 20)	Post Checkout code	﻿2026-03-05T06:07:15.1034191Z Post job cleanup.
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:15.7423187Z [command]"C:\Program Files\Git\bin\git.exe" version
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:15.7733074Z git version 2.53.0.windows.1
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:15.7840535Z Temporarily overriding HOME='D:\a\_temp\c1818695-b34a-4b05-8b9d-f03d6a4c0122' before making global git config changes
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:15.7841793Z Adding repository directory to the temporary git global config as a safe directory
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:15.7852872Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\PlaywrightAutomation\PlaywrightAutomation
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:15.8191549Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:15.8547901Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:16.4100874Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:16.4360420Z http.https://github.com/.extraheader
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:16.4404280Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:16.4719559Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:17.0052335Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Tests (windows-latest, 20)	Post Checkout code	2026-03-05T06:07:17.0346635Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+Run Tests (windows-latest, 20)	Complete job	﻿2026-03-05T06:07:17.5870445Z Cleaning up orphan processes
