@@ -1,0 +1,166 @@
+[
+  {
+    "index": 0,
+    "subject": "RE: Updates - Novartis ITSM Dashboard",
+    "sender": "mriganka.dey@joulestowatts.com",
+    "extracted": {
+      "trackingNumber": "ownership",
+      "emails": [
+        "anuradha.murthy@joulestowatts.com",
+        "mriganka.dey@joulestowatts.com",
+        "romit.roy_ext@novartis.com",
+        "kenneth.balba@novartis.com",
+        "razel.rafael@novartis.com",
+        "mriganka.dey_ext@novartis.com"
+      ]
+    },
+    "rawText": "Hi Team,\n\n \n\nPlease find the data dump attached for reference.\n\n \n\nCan we have the call tomorrow at 5:30 pm IST?\n\n \n\n \n\nThanks & regards,\n\nRomit Roy\n\n \n\nFrom: Anuradha Murthy <anuradha.murthy@joulestowatts.com>\nSent: Tuesday, December 16, 2025 12:51 PM\nTo: Mriganka Dey <mriganka.dey@joulestowatts.com>; Roy, Romit (Ext) <romit.roy_ext@novartis.com>\nCc: Balba, Kenneth (Ext) <kenneth.balba@novartis.com>; Rafael, Razel (Ext) <razel.rafael@novartis.com>; Dey, Mriganka (Ext) <mriganka.dey_ext@novartis.com>\nSubject: RE: Updates - Novartis ITSM Dashboard\n\n \n\nHi Romit, Two support items required – Request the data dump you spoke of on the last call urgently Data Migration from Service Now to Power BI – Mriganka has provided us a few options. Please suggest if we can have a quick connect\n\nZjQcmQRYFpfptBannerStart\n\nThis Message Is From an External Sender\n\n\n\n\nThis message came from outside your organization.\n\nZjQcmQRYFpfptBannerEnd\n\nHi Romit,\n\n \n\nTwo support items required –\n\nRequest the data dump",
+    "willSearch": true,
+    "searchValue": "ownership"
+  },
+  {
+    "index": 1,
+    "subject": "RE: SOW - Data Dashboarding",
+    "sender": "mriganka.dey@joulestowatts.com",
+    "extracted": {
+      "emails": [
+        "automation.cloud@novartis.com",
+        "vincent.paul@wipro.com",
+        "vincent.paul_ext@novartis.com",
+        "romit.roy_ext@novartis.com",
+        "vinil_kumar.choudhary_ext@novartis.com",
+        "vineet.shukla@joulestowatts.com",
+        "vasundhara.sharma@joulestowatts.com",
+        "mriganka.dey@joulestowatts.com",
+        "anuradha.murthy@joulestowatts.com",
+        "ethics@joulestowatts.com",
+        "vivek.verma@joulestowatts.com"
+      ],
+      "phones": [
+        "+91-9860604099",
+        "+91 6297570924",
+        "+91 9860604099"
+      ]
+    },
+    "rawText": "Hello Romit, Vincent,\n\n \n\nThis is to let you know that my colleague Mriganka Dey has received 2 emailers from automation.cloud@novartis.com last evening.  The 1st contained  credentials to log into the cloud pc and the 2nd with instructions on how to log in . When he tried to log into the account, he was not able to verify with the methods provided.  I  am requesting  support to help with this.\n\n \n\nRequesting Romit to confirm his availability so we can address this matter and set up the kick off call date / time given that project go live is 1st Dec.\nMriganka would need this initial call to  identify KPIs, understand underlying data and processes, business requirements to create the mock dashboard in phase 1\n\n \n\nPlease do respond to me on the above and your availability to have a call so we can kick start phase 1\n\n \n\nRegards,\n\nAnuradha\n\n \n\nFrom: Anuradha Murthy\nSent: 25 November 2025 11:10\nTo: 'VINCENT PAUL' <vincent.paul@wipro.com>; Paul, Vincent (Ext) <vincent.paul_ext@novartis.com>;",
+    "willSearch": false
+  },
+  {
+    "index": 2,
+    "subject": "",
+    "sender": "mriganka.dey@joulestowatts.com",
+    "extracted": {
+      "emails": [
+        "automation.cloud@novartis.com",
+        "DEYMR2@novartis.net",
+        "TIS.VDAS.Ops.mgrs_ORG_GBL@dl.mgd.novartis.com"
+      ]
+    },
+    "rawText": "\t\nYou don't often get email from automation.cloud@novartis.com. Learn why this is important\n\t\n\n\n\n\nNextGen Cloud PC: Welcome and Setup Guide\n\n\nDear Mriganka Dey,\n\nWelcome to the Novartis Cloud PC family!\n\nPlease follow these steps to get started:\n\n\nYou need a Temporary Access Password (TAP) for your first-time login to Cloud PC. Click here select your region, country and contact IT support to obtain your TAP.\nPlease note that your TAP is valid for eight hours only from the time that it is sent to you and valid for one time use.Ensure to have your Novartis Operations Manager's\nname and Project name ready for TAP issuance.For details, contact the requestor who submitted the onboarding request\nConnect to the Cloud PC using this link - https://cloudpc.novartis.com\nSign in with your Novartis ID DEYMR2@novartis.net\nOnce connected, immediately enroll in Multi-Factor Authentication (MFA) by following the instructions in this knowledge article. The enrollment link and article are accessible only",
+    "willSearch": false
+  },
+  {
+    "index": 3,
+    "subject": "",
+    "sender": "mriganka.dey@joulestowatts.com",
+    "extracted": {
+      "emails": [
+        "automation.cloud@novartis.com"
+      ]
+    },
+    "rawText": "\t\nYou don't often get email from automation.cloud@novartis.com. Learn why this is important\n\t\n\n\nDear Mriganka Dey,\n\nBelow is your windows credential to log into your Cloud PC,\n\n\nNovartis 521 ID = DEYMR2\nInitial Network Default Password = idH#IJG68tDbi1_C\nAfter successful login to Novartis Cloud PC, promptly enroll yourself for MFA at go\\mfaenroll for successful future logins\nFind instructions in Knowledge article\n\nThe enrollment link and article are accessible only inside the Cloud PC\n\nAdditional Support\n\nIf you have any issues logging into your Cloud PC, please contact IT support for your location. Visit http://www.novartis.com/ithelp for contact details\nIn case of additional queries, please write to the team\n\nThank you for your cooperation and understanding.\n\nPlease Note:This mailbox is not monitored. Please do not reply to this email.?\n\nBest regards,\n\nData, Digital & IT\n\n\n\n",
+    "willSearch": false
+  },
+  {
+    "index": 4,
+    "subject": "RE: SOW - Data Dashboarding",
+    "sender": "mriganka.dey@joulestowatts.com",
+    "extracted": {
+      "emails": [
+        "vincent.paul@wipro.com",
+        "anuradha.murthy@joulestowatts.com",
+        "vincent.paul_ext@novartis.com",
+        "romit.roy_ext@novartis.com",
+        "vinil_kumar.choudhary_ext@novartis.com",
+        "vineet.shukla@joulestowatts.com",
+        "vasundhara.sharma@joulestowatts.com",
+        "mriganka.dey@joulestowatts.com",
+        "ethics@joulestowatts.com",
+        "vivek.verma@joulestowatts.com"
+      ],
+      "phones": [
+        "+91-9860604099",
+        "+91 6297570924",
+        "+91 9860604099"
+      ]
+    },
+    "rawText": "Hello Vincent,\n\n \n\nPlease find attached pdf as required.\n\n \n\nWe can initiate this for digital signatures from our end. Please do share the name, designation and email id of the authorised signatory from Wipro to proceed.\n\n \n\nRegards,\n\nAnuradha\n\n \n\n \n\n \n\nFrom: VINCENT PAUL <vincent.paul@wipro.com>\nSent: 25 November 2025 10:24\nTo: Anuradha Murthy <anuradha.murthy@joulestowatts.com>; Paul, Vincent (Ext) <vincent.paul_ext@novartis.com>; Roy, Romit (Ext) <romit.roy_ext@novartis.com>; Choudhary, Vinil Kumar (Ext) <vinil_kumar.choudhary_ext@novartis.com>\nCc: Vineet Shukla <vineet.shukla@joulestowatts.com>; Vasundhara Sharma <vasundhara.sharma@joulestowatts.com>\nSubject: RE: SOW - Data Dashboarding\n\n \n\nHi Anuradha,\n\n \n\nPlease send out the pdf copy signed from your end for initiating signature at our end.\n\n \n\nRegards,\n\n \n\nVincent Paul\n\nAccount Delivery Head\n\nTechnology Services\n\nMobile: +91-9860604099\n\n \n\n \n\nInternal - General Use\n\nFrom: Anuradha Murthy <anuradha.murthy@joulestowatts.com>\nSent:",
+    "willSearch": false
+  },
+  {
+    "index": 5,
+    "subject": "In-Person Feedback (Talent Sphere) – Attached Excel Sheet",
+    "sender": "mriganka.dey@joulestowatts.com",
+    "extracted": {
+      "emails": [
+        "avinash.kumar@joulestowatts.com",
+        "vineet.shukla@joulestowatts.com",
+        "mriganka.dey@joulestowatts.com",
+        "v.dhinakar@joulestowatts.com",
+        "pranjali.thakur@joulestowatts.com",
+        "shamitha.reddy@joulestowatts.com"
+      ]
+    },
+    "rawText": "@Pranjali Thakur - Make sure we dont miss anything\n\n\n\nGet Outlook for Mac\n\nFrom: Avinash Kumar <avinash.kumar@joulestowatts.com>\nDate: Monday, 24 November 2025 at 11:12 PM\nTo: Vineet Shukla <vineet.shukla@joulestowatts.com>, Mriganka Dey <mriganka.dey@joulestowatts.com>, V Dhinakar <v.dhinakar@joulestowatts.com>, Pranjali Thakur <pranjali.thakur@joulestowatts.com>, Shamitha Reddy <shamitha.reddy@joulestowatts.com>\nSubject: In-Person Feedback (Talent Sphere) – Attached Excel Sheet\n\n\nHi Vineet Sir,\nPlease find attached the updated Excel sheet containing feedback from recruiters who tested Talent Sphere.\nThe data was collected by @Shamitha Reddy and myself. We have categorized the feedback into key issues and feature requests for your review.\nLet me know if you need any further details or a walkthrough of the sheet.\nBest regards,\nAvinash Kumar\n\n\n\n",
+    "willSearch": false
+  },
+  {
+    "index": 6,
+    "subject": "",
+    "sender": "mriganka.dey@joulestowatts.com",
+    "extracted": {
+      "emails": [
+        "privacy@makenotion.com"
+      ]
+    },
+    "rawText": "Can't see images? View as Web Page!\n\n\n\n\n \n\n\n\nHi Mriganka,\n\n\n\nWhat if your most repetitive work could run on autopilot? Companies using custom agents are already there—automatically routing tasks, answering repeat questions, and compiling reports without manually searching across their workspaces.\n\nJoin us for our workshop, Automate your first workflows with Custom Agents, on March 19 at 11am SGT | 2pm AEDT, where we'll show you:\n\nNotion’s new Custom Agents feature\nHow to build a Custom Agent that handle repetitive workflows for you—from bug triaging to project reporting\nReal examples of Q&A agents, task routing agents, and project reporting agents in action\n\n\nRegister now\n\n\n\n\nWe hope to see you there!\n\nThe Notion Team\n\n\n\n\t\t\n\t\t\n\t\t\n\t\t\n\n\n\n\n\n© 2026 Notion Labs, Inc. All Rights Reserved.\n\n685 Market St, San Francisco, CA 94105, United States, Company Number: 3488536\n\nIf you would like to know more about how Notion processes your personal data, please click: Notion’s Privacy Policy. If you w",
+    "willSearch": false
+  },
+  {
+    "index": 7,
+    "subject": "",
+    "sender": "mriganka.dey@joulestowatts.com",
+    "extracted": {
+      "emails": [
+        "J2WHR@joulestowatts.com",
+        "ethics@joulestowatts.com"
+      ]
+    },
+    "rawText": "Dear Team J2W,\nAs the festival of colors arrives, we at JoulestoWatts wish you and your loved ones a very Happy Holi \nHoli reminds us of everything we stand for as an organization—togetherness, positivity, collaboration, and vibrant energy. Just like colors blend beautifully, it is our collective efforts, diverse perspectives, and shared goals that make J2W a truly special place to grow and succeed.\nMay this Holi fill your days with new beginnings, bright moments, and joyful memories. Let’s continue to color our journey with innovation, ownership, and integrity.\n\n\n✨ Wishing you a safe, joyful, and colorful Holi! \n\nRegards,\n\t\n\n\n\n\nHR Team\n\n\t\n9738581553\n\t\nJ2WHR@joulestowatts.com\n\t\nwww.joulestowatts.com\n\t\nIndia, US, Dubai, KSA, Malaysia, Philippines, Singapore\n\n\n\nAdvisory | Workforce | Technology \n\n\t\nImportant: Our Code of Conduct sets forth our core values, shared responsibilities, commitments, and promises. Our Code applies equally to all employees globally, partners, suppliers, agents a",
+    "willSearch": false
+  },
+  {
+    "index": 8,
+    "subject": "Live on: Wednesday, March 4 at 10 AM PT / 1 PM ET",
+    "sender": "mriganka.dey@joulestowatts.com",
+    "extracted": {
+      "emails": [
+        "marketing@learn.deepgram.com"
+      ]
+    },
+    "rawText": "\t\nYou don't often get email from marketing@learn.deepgram.com. Learn why this is important\n\t\n\n\nHi there,\n\nWe’re live tomorrow, March 4th at 10 AM PT / 1 PM ET.  \n\nJoin our technical webinar on building multilingual voice agents for real-time production systems, led by Deepgram’s Senior Product Manager, Artur Gasparyan, and Staff Research Scientist, Jack Kearney.\n\n \n\nWe’ll cover:\n\nDesigning for accents, dialects, and in-session code-switching\nChoosing between monolingual and multilingual models\nDesigning streaming systems that protect latency budgets\nArchitecting for global scale without operational complexity\n\nIf you are building voice systems for customers across languages and regions, this is a session you don’t want to miss. Save your seat and join us live.\n\n \n\n👉 Reserve your spot now\n\n\nLive on: Wednesday, March 4 at 10 AM PT / 1 PM ET \nRegister Now\n\nAbout  |  Pricing  |  Get Started\n\n\t\n\t\n\t\n\nDeepgram, 548 Market St., San Francisco, CA, United States\n\nUnsubscribe Manage preferences",
+    "willSearch": false
+  },
+  {
+    "index": 9,
+    "subject": "Q&A agents answer repeat questions",
+    "sender": "mriganka.dey@joulestowatts.com",
+    "extracted": {
+      "emails": [
+        "ivan@mail.notion.so"
+      ]
+    },
+    "rawText": "\t\nYou don't often get email from ivan@mail.notion.so. Learn why this is important\n\t\n\n\n\n\n\nBig news today: Custom Agents are finally here! And they’re pretty different from other AI tools you’ve tried.\n\n\n\n\nFirst, they’re completely autonomous (no manual prompting). Just give them a job, set a trigger or schedule, and they’ll get it done, 24/7. Your agents can automate task triaging, internal Q&A, daily standups and status reports, and even get you to inbox zero.\n\n\n\n\nSecond, they're designed for teams. Create and share them together. Control all their permissions, just like a real teammate. And integrate them with the tools your teams already use (Slack, Figma, and more!).\n\n\n\n\n\nFinally, Custom Agents are super easy to create. Spin one up and let it work while you sleep! Here are a few examples on what they can do:\n\nTry for free\n\nTry Custom Agents on desktop. Mobile is coming soon!\n\nQ&A agents answer repeat questions\n\n\n\n\n\nInstead of answering the same questions in Slack manually, over and ",
+    "willSearch": false
+  }
+]

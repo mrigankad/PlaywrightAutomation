@@ -1,0 +1,46 @@
+# Source files
+src/
+tests/
+*.ts
+!*.d.ts
+
+# Configuration files
+.eslintrc*
+eslint.config.*
+.prettierrc
+jest.config.js
+tsconfig*.json
+.gitignore
+.husky/
+.lintstagedrc
+
+# Development files
+.github/
+examples/
+coverage/
+logs/
+screenshots/
+storage/
+*.log
+*.ps1
+
+# Build tools
+node_modules/
+.env
+.env.example
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/

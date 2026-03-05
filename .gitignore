@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+storage/*.json
+screenshots/*.png
+screenshots/*.jpg
+logs/*.log
+.DS_Store
+*.log
